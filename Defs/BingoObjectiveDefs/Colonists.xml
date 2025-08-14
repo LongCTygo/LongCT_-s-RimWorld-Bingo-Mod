@@ -1,0 +1,105 @@
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="ColonistCountBase">
+        <title>ColonistCountBase.title</title>
+        <label>have X colonists</label>
+        <details>ColonistCountBase.details</details>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Colonist.ColonistCountProgressionBingoObjective</eventHandlerClass>
+        <categoryKey>ColonistCount</categoryKey>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ColonistCountBase">
+        <defName>ColonistCountEasy</defName>
+        <difficulty>1</difficulty>
+        <goalRange>7~7</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ColonistCountBase">
+        <defName>ColonistCountNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>8~9</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ColonistCountBase">
+        <defName>ColonistCountHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>10~12</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ColonistCountBase">
+        <defName>ColonistCountExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>13~16</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ColonistCountBase">
+        <defName>ColonistCountLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>17~22</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <!-- Trait Recruit -->
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="TraitRecruitBase">
+        <title>TraitRecruitBase.title</title>
+        <label>recruit a pawn with a specific trait</label>
+        <details>TraitRecruitBase.details</details>
+        <categoryKey>TraitColonistRecruit</categoryKey>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Colonist.TraitColonistGainedBingoObjective</eventHandlerClass>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="TraitRecruitBase">
+        <defName>RecruitPawnNormal</defName>
+        <difficulty>2</difficulty>
+        <candidates>
+            <li>
+                <value>Nudist</value>
+                <weight>0.7</weight>
+            </li>
+            <li>
+                <value>Greedy</value>
+            </li>
+            <li>
+                <value>Jealous</value>
+            </li>
+            <li>
+                <value>Psychopath</value>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="TraitRecruitBase">
+        <defName>RecruitPawnHard</defName>
+        <difficulty>3</difficulty>
+        <candidates>
+            <li>
+                <value>Gourmand</value>
+            </li>
+            <li>
+                <value>Pyromaniac</value>
+                <weight>0.8</weight>
+            </li>
+            <li>
+                <value>Wimp</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">
+                <value>Delicate</value>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="TraitRecruitBase">
+        <defName>RecruitPawnExpert</defName>
+        <difficulty>4</difficulty>
+        <candidates>
+            <li>
+                <value>SlowLearner</value>
+            </li>
+            <li>
+                <value>Industriousness</value>
+                <degree>-2</degree>
+            </li>
+            <li>
+                <value>Immunity</value>
+                <degree>-1</degree>
+            </li>
+            <li>
+                <value>Nerves</value>
+                <degree>-2</degree>
+            </li>
+            <li>
+                <value>NaturalMood</value>
+                <degree>-2</degree>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

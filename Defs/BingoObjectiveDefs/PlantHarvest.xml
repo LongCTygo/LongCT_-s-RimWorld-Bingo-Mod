@@ -1,0 +1,119 @@
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="PlantYieldProgressionBase">
+        <label>harvest plants</label>
+        <title>PlantYieldProgressionBase.title</title>
+        <details>PlantYieldProgressionBase.details</details>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.PlantHarvest.PlantYieldProgressionBingoObjective</eventHandlerClass>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="FoodPlantYieldProgressionBase" ParentName="PlantYieldProgressionBase">
+        <defName>FoodPlantYieldProgressionBase</defName>
+        <categoryKey>HarvestFoodPlant</categoryKey>
+        <candidates>
+            <li>
+                <value>RawCorn</value>
+                <weight>1.5</weight>
+            </li>
+            <li>
+                <value>RawPotatoes</value>
+                <multiplier>1.4</multiplier>
+                <weight>1.5</weight>
+            </li>
+            <li>
+                <value>RawRice</value>
+                <multiplier>2</multiplier>
+                <weight>1.5</weight>
+            </li>
+            <li>
+                <value>RawBerries</value>
+                <multiplier>1.2</multiplier>
+            </li>
+            <li>
+                <value>RawAgave</value>
+                <weight>0.5</weight>
+                <multiplier>0.25</multiplier>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">
+                <value>RawFungus</value>
+                <multiplier>1.7</multiplier>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">
+                <value>RawToxipotato</value>
+                <multiplier>0.75</multiplier>
+                <weight>0.5</weight>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="FoodPlantYieldProgressionBase">
+        <defName>FoodPlantYieldProgressionNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>400~800</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="FoodPlantYieldProgressionBase">
+        <defName>FoodPlantYieldProgressionHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>800~1600</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="FoodPlantYieldProgressionBase">
+        <defName>FoodPlantYieldProgressionExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>1600~3200</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="MiscPlantYieldProgressionBase" ParentName="PlantYieldProgressionBase">
+        <defName>MiscPlantYieldProgressionBase</defName>
+        <categoryKey>HarvestMiscPlant</categoryKey>
+        <candidates>
+            <li>
+                <value>SmokeleafLeaves</value>
+                <weight>0.8</weight>
+            </li>
+            <li>
+                <value>PsychoidLeaves</value>
+                <weight>0.8</weight>
+            </li>
+            <li>
+                <value>RawHops</value>
+                <weight>0.8</weight>
+                <multiplier>1.25</multiplier>
+            </li>
+            <li>
+                <value>Cloth</value>
+            </li>
+            <li>
+                <value>Hay</value>
+                <multiplier>2</multiplier>
+            </li>
+            <li>
+                <value>Dye</value>
+            </li>
+            <li>
+                <value>DevilstrandCloth</value>
+                <weight>0.5</weight>
+                <multiplier>0.25</multiplier>
+            </li>
+            <li>
+                <value>MedicineHerbal</value>
+                <multiplier>0.25</multiplier>
+            </li>
+            <li>
+                <value>Chocolate</value>
+                <weight>0.5</weight>
+                <multiplier>0.1</multiplier>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="MiscPlantYieldProgressionBase">
+        <defName>MiscPlantYieldProgressionNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>400~800</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="MiscPlantYieldProgressionBase">
+        <defName>MiscPlantYieldProgressionHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>800~1600</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="MiscPlantYieldProgressionBase">
+        <defName>MiscPlantYieldProgressionExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>1600~3200</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

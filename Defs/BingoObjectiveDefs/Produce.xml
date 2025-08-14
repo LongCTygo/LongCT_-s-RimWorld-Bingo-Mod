@@ -1,0 +1,148 @@
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="ProduceBase">
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Production.ProduceThingProgressionBingoObjective</eventHandlerClass>
+        <weight>0.25</weight>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="CraftBase" ParentName="ProduceBase">
+        <title>CraftBase.title</title>
+        <label>Produce X items with optional quality/material</label>
+        <details>CraftBase.details</details>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="CraftQualityBase" ParentName="CraftBase">
+        <modExtensions>
+            <li Class="RimWorldBingoMod.Objectives.Extension.BingoObjectiveExtension">
+                <qualityCandidates>
+                    <li>
+                        <value>Normal</value>
+                        <weight>2</weight>
+                    </li>
+                    <li>
+                        <value>Good</value>
+                        <multiplier>0.85</multiplier>
+                    </li>
+                    <li>
+                        <value>Excellent</value>
+                        <multiplier>0.7</multiplier>
+                    </li>
+                </qualityCandidates>
+                <considerQuality>true</considerQuality>
+            </li>
+        </modExtensions>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="CraftApparelQualityBase" ParentName="CraftBase">
+        <modExtensions>
+            <li Class="RimWorldBingoMod.Objectives.Extension.BingoObjectiveExtension">
+                <!-- Stuff -->
+                <candidates>
+                    <li>
+                        <value>Cloth</value>
+                        <weight>2</weight>
+                    </li>
+                    <li>
+                        <value>Leather_Plain</value>
+                        <weight>2</weight>
+                    </li>
+                    <li>
+                        <value>Leather_Human</value>
+                    </li>
+                    <li>
+                        <value>Leather_Patch</value>
+                        <weight>2</weight>
+                    </li>
+                </candidates>
+                <qualityCandidates>
+                    <li>
+                        <value>Normal</value>
+                        <weight>2</weight>
+                    </li>
+                    <li>
+                        <value>Good</value>
+                        <multiplier>0.85</multiplier>
+                    </li>
+                    <li>
+                        <value>Excellent</value>
+                        <multiplier>0.7</multiplier>
+                    </li>
+                </qualityCandidates>
+                <considerQuality>true</considerQuality>
+            </li>
+        </modExtensions>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="CraftArtQualityBase" ParentName="CraftBase">
+        <modExtensions>
+            <li Class="RimWorldBingoMod.Objectives.Extension.BingoObjectiveExtension">
+                <!-- Stuff -->
+                <candidates>
+                    <li>
+                        <value>WoodLog</value>
+                        <multiplier>0.004</multiplier>
+                    </li>
+                    <li>
+                        <value>Steel</value>
+                        <multiplier>0.004</multiplier>
+                    </li>
+                    <li>
+                        <value>Jade</value>
+                        <multiplier>0.001</multiplier>
+                    </li>
+                    <li>
+                        <value>Uranium</value>
+                        <multiplier>0.0007</multiplier>
+                    </li>
+                    <li>
+                        <value>Plasteel</value>
+                        <multiplier>0.0005</multiplier>
+                    </li>
+                    <li MayRequire="Ludeon.RimWorld.Odyssey">
+                        <value>Obsidian</value>
+                        <multiplier>0.0004</multiplier>
+                    </li>
+                    <li>
+                        <value>BlocksMarble</value>
+                        <weight>0.5</weight>
+                        <multiplier>0.002</multiplier>
+                    </li>
+                    <li>
+                        <value>BlocksGranite</value>
+                        <weight>0.5</weight>
+                        <multiplier>0.002</multiplier>
+                    </li>
+                    <li>
+                        <value>BlocksLimestone</value>
+                        <weight>0.5</weight>
+                        <multiplier>0.002</multiplier>
+                    </li>
+                    <li>
+                        <value>BlocksSandstone</value>
+                        <weight>0.5</weight>
+                        <multiplier>0.002</multiplier>
+                    </li>
+                    <li>
+                        <value>BlocksSlate</value>
+                        <weight>0.5</weight>
+                        <multiplier>0.002</multiplier>
+                    </li>
+                    <li MayRequire="Ludeon.RimWorld.Odyssey">
+                        <value>BlocksVacstone</value>
+                        <weight>0.5</weight>
+                        <multiplier>0.0008</multiplier>
+                    </li>
+                </candidates>
+                <qualityCandidates>
+                    <li>
+                        <value>Normal</value>
+                    </li>
+                    <li>
+                        <value>Good</value>
+                        <multiplier>0.85</multiplier>
+                    </li>
+                    <li>
+                        <value>Excellent</value>
+                        <multiplier>0.7</multiplier>
+                    </li>
+                </qualityCandidates>
+                <considerQuality>true</considerQuality>
+            </li>
+        </modExtensions>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

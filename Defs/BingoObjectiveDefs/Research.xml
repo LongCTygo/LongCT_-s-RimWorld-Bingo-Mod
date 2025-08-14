@@ -1,0 +1,207 @@
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="ResearchBase">
+        <defName>ResearchBase</defName>
+        <label>research</label>
+        <title>ResearchBase.title</title>
+        <details>ResearchBase.details</details>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Research.ResearchProjectBingoObjective</eventHandlerClass>
+        <categoryKey>ResearchThing</categoryKey>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ResearchBase">
+        <defName>ResearchEasy</defName>
+        <label>research easy</label>
+        <difficulty>1</difficulty>
+        <candidates>
+            <li>
+                <value>Devilstrand</value>
+            </li>
+            <li>
+                <value>LongBlades</value>
+            </li>
+            <li>
+                <value>Greatbow</value>
+            </li>
+            <li>
+                <value>CarpetMaking</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Royalty">
+                <value>NobleApparel</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Royalty">
+                <value>Harp</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <value>HeavyBridges</value>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ResearchBase">
+        <defName>ResearchMedium</defName>
+        <label>research medium</label>
+        <difficulty>2</difficulty>
+        <candidates>
+            <li>
+                <value>PenoxycylineProduction</value>
+            </li>
+            <li>
+                <value>WakeUpProduction</value>
+            </li>
+            <li>
+                <value>Mortars</value>
+            </li>
+            <li>
+                <value>FlakArmor</value>
+            </li>
+            <li>
+                <value>Prosthetics</value>
+            </li>
+            <li>
+                <value>PackagedSurvivalMeal</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">
+                <value>Deathrest</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">
+                <value>ToxGas</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">
+                <value>SecurityDoor</value>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ResearchBase">
+        <defName>ResearchHard</defName>
+        <label>research hard</label>
+        <difficulty>3</difficulty>
+        <candidates>
+            <li>
+                <value>FlatscreenTelevision</value>
+            </li>
+            <li>
+                <value>TransportPod</value>
+            </li>
+            <li>
+                <value>GroundPenetratingScanner</value>
+            </li>
+            <li>
+                <value>MultibarrelWeapons</value>
+            </li>
+            <li>
+                <value>SniperTurret</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Royalty">
+                <value>JumpPack</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">
+                <value>NeuralSupercharger</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">
+                <value>GrowthVats</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <value>HunterDrones</value>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ResearchBase">
+        <defName>ResearchExpert</defName>
+        <label>research expert</label>
+        <difficulty>4</difficulty>
+        <candidates>
+            <li>
+                <value>ReconArmor</value>
+            </li>
+            <li>
+                <value>ChargedShot</value>
+            </li>
+            <li>
+                <value>Cryptosleep</value>
+            </li>
+            <li>
+                <value>PoweredArmor</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">
+                <value>Archogenetics</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <value>Shuttles</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <value>AdvancedGravtech</value>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ResearchBase">
+        <defName>ResearchLis</defName>
+        <label>research losing is fun</label>
+        <difficulty>5</difficulty>
+        <candidates>
+            <li>
+                <value>ShipReactor</value>
+            </li>
+            <li>
+                <value>ShipEngine</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Royalty">
+                <value>VenomSynthesis</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Royalty">
+                <value>CataphractArmor</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">
+                <value>WastepackAtomizer</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <value>BeamWeapons</value>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="ResearchProgressionBase">
+        <defName>ResearchProgressionBase</defName>
+        <label>research X projects</label>
+        <title>ResearchProgressionBase.title</title>
+        <details>ResearchProgressionBase.details</details>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Research.ResearchProgressionBingoObjective</eventHandlerClass>
+        <categoryKey>ResearchProgression</categoryKey>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ResearchProgressionBase">
+        <defName>ResearchProgressionEasy</defName>
+        <label>research progression easy</label>
+        <difficulty>1</difficulty>
+        <goalRange>5~8</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ResearchProgressionBase">
+        <defName>ResearchProgressionMedium</defName>
+        <label>research progression medium</label>
+        <difficulty>2</difficulty>
+        <goalRange>9~12</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ResearchProgressionBase">
+        <defName>ResearchProgressionHard</defName>
+        <label>research progression hard</label>
+        <difficulty>3</difficulty>
+        <goalRange>13~17</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ResearchProgressionBase">
+        <defName>ResearchProgressionExpert</defName>
+        <label>research progression expert</label>
+        <difficulty>4</difficulty>
+        <goalRange>18~24</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ResearchProgressionBase">
+        <defName>ResearchProgressionLis</defName>
+        <label>research progression losing is fun</label>
+        <difficulty>5</difficulty>
+        <goalRange>25~32</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

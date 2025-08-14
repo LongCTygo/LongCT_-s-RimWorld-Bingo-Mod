@@ -1,0 +1,262 @@
+<Defs>
+    <!-- Drugs -->
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="CraftDrug" ParentName="CraftBase">
+        <categoryKey>ProduceDrug</categoryKey>
+        <candidates>
+            <li>
+                <value>Beer</value>
+                <weight>3</weight>
+            </li>
+            <li>
+                <value>PsychiteTea</value>
+            </li>
+            <li>
+                <value>SmokeleafJoint</value>
+                <weight>3</weight>
+            </li>
+            <li>
+                <value>Flake</value>
+            </li>
+            <li>
+                <value>Yayo</value>
+                <multiplier>0.5</multiplier>
+            </li>
+            <li>
+                <value>GoJuice</value>
+                <multiplier>0.5</multiplier>
+            </li>
+            <li>
+                <value>WakeUp</value>
+                <multiplier>0.5</multiplier>
+            </li>
+            <li>
+                <value>Penoxycyline</value>
+                <multiplier>0.5</multiplier>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftDrug">
+        <defName>ProduceDrugNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>150~350</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftDrug">
+        <defName>ProduceDrugHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>350~550</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftDrug">
+        <defName>ProduceDrugExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>550~750</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftDrug">
+        <defName>ProduceDrugLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>750~950</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <!-- Prosthetics -->
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="CraftProsthetic" ParentName="CraftBase">
+        <categoryKey>ProduceGeneral</categoryKey>
+        <candidates>
+            <!-- Arms & Hands -->
+            <li>
+                <value>SimpleProstheticArm</value>
+                <multiplier>3.6</multiplier>
+            </li>
+            <li>
+                <value>BionicArm</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Royalty">
+                <value>DrillArm</value>
+                <multiplier>1.8</multiplier>
+            </li>
+            <!-- Only craftable with Royalty -->
+            <li MayRequire="Ludeon.RimWorld.Royalty">
+                <value>PowerClaw</value>
+                <multiplier>1.8</multiplier>
+            </li>
+            <!-- Legs -->
+             <li>
+                <value>SimpleProstheticLeg</value>
+                <multiplier>3.6</multiplier>
+            </li>
+            <li>
+                <value>BionicLeg</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Royalty">
+                <value>KneeSpike</value>
+                <multiplier>1.8</multiplier>
+            </li>
+            <!-- Body -->
+            <li>
+                <value>BionicStomach</value>
+            </li>
+            <li>
+                <value>BionicHeart</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">
+                <value>CorrosiveHeart</value>
+            </li>
+            <li>
+                <value>SimpleProstheticHeart</value>
+                <multiplier>3.6</multiplier>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">
+                <value>DetoxifierLung</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">
+                <value>DetoxifierKidney</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">
+                <value>BloodWarmer</value>
+            </li>
+            <li>
+                <value>BionicSpine</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">
+                <value>RevenantVertebrae</value>
+            </li>
+            <!-- Head -->
+            <!-- Only craftable with Royalty -->
+            <li MayRequire="Ludeon.RimWorld.Royalty">
+                <value>Joywire</value>
+                <multiplier>1.8</multiplier>
+            </li>
+            <!-- Only craftable with Royalty -->
+            <li MayRequire="Ludeon.RimWorld.Royalty">
+                <value>Painstopper</value>
+                <multiplier>1.8</multiplier>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Royalty">
+                <value>Mindscrew</value>
+                <multiplier>1.8</multiplier>
+            </li>
+            <li>
+                <value>BionicEye</value>
+            </li>
+            <li>
+                <value>BionicEar</value>
+            </li>
+            <li>
+                <value>BionicJaw</value>
+            </li>
+            <li>
+                <value>BionicTongue</value>
+            </li>
+        </candidates>
+     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftProsthetic">
+        <defName>ProduceProstheticEasy</defName>
+        <difficulty>1</difficulty>
+        <goalRange>1~2</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftProsthetic">
+        <defName>ProduceProstheticNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>3~4</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftProsthetic">
+        <defName>ProduceProstheticHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>5~7</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftProsthetic">
+        <defName>ProduceProstheticExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>8~11</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftProsthetic">
+        <defName>ProduceProstheticLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>12~16</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <!-- Shells -->
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="CraftShell" ParentName="CraftBase">
+        <categoryKey>ProduceGeneral</categoryKey>
+        <candidates>
+            <li>
+                <value>Shell_HighExplosive</value>
+            </li>
+            <li>
+                <value>Shell_Incendiary</value>
+            </li>
+            <li>
+                <value>Shell_EMP</value>
+            </li>
+            <li>
+                <value>Shell_Smoke</value>
+            </li>
+            <li>
+                <value>Shell_Firefoam</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">
+                <value>Shell_Toxic</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">
+                <value>Shell_Deadlife</value>
+                <multiplier>0.33</multiplier>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftShell">
+        <defName>ProduceShellEasy</defName>
+        <difficulty>1</difficulty>
+        <goalRange>3~8</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftShell">
+        <defName>ProduceShellNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>9~14</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftShell">
+        <defName>ProduceShellHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>15~20</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftShell">
+        <defName>ProduceShellExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>21~26</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftShell">
+        <defName>ProduceShellLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>27~32</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <!-- Misc -->
+     <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="CraftMisc" ParentName="CraftBase">
+        <categoryKey>ProduceGeneral</categoryKey>
+        <candidates>
+            <li>
+                <value>MedicineIndustrial</value>
+            </li>
+            <li>
+                <value>ComponentIndustrial</value>
+            </li>
+            <li>
+                <value>ComponentSpacer</value>
+                <multiplier>0.33</multiplier>
+            </li>
+            <li>
+                <value>Chemfuel</value>
+                <multiplier>10</multiplier>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftMisc">
+        <defName>ProduceMiscNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>40~70</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftMisc">
+        <defName>ProduceMiscHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>70~100</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftMisc">
+        <defName>ProduceMiscExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>100~130</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

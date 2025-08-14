@@ -1,0 +1,101 @@
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="MentalBreakBase">
+        <label>have mental break</label>
+        <title>MentalBreakBase.title</title>
+        <details>MentalBreakBase.details</details>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Mood.MentalBreakProgressionBingoObjective</eventHandlerClass>
+        <categoryKey>MentalBreak</categoryKey>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="MentalBreakExtremeBase" ParentName="MentalBreakBase">
+        <modExtensions>
+            <li Class="RimWorldBingoMod.Objectives.Extension.BingoObjectiveExtension">
+                <mentalBreakIntensityCandidates>
+                    <li>
+                        <value>Extreme</value>
+                    </li>
+                </mentalBreakIntensityCandidates>
+                <considerIntensity>true</considerIntensity>
+            </li>
+        </modExtensions>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <!-- Any Mental Break -->
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="MentalBreakBase">
+        <defName>MentalBreakProgressionEasy</defName>
+        <difficulty>1</difficulty>
+        <goalRange>1~2</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="MentalBreakBase">
+        <defName>MentalBreakProgressionNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>3~4</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="MentalBreakBase">
+        <defName>MentalBreakProgressionHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>5~7</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="MentalBreakBase">
+        <defName>MentalBreakProgressionExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>8~11</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="MentalBreakBase">
+        <defName>MentalBreakProgressionLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>12~15</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <!-- Extreme Mental Break -->
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="MentalBreakExtremeBase">
+        <defName>ExtremeMentalBreakProgressionNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>1~2</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="MentalBreakExtremeBase">
+        <defName>ExtremeMentalBreakProgressionHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>3~4</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="MentalBreakExtremeBase">
+        <defName>ExtremeMentalBreakProgressionExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>5~6</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="MentalBreakExtremeBase">
+        <defName>ExtremeMentalBreakProgressionLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>7~10</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <!-- Inspiration -->
+     <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="GainInspirationBase">
+        <label>gain inspirations</label>
+        <title>GainInspirationBase.title</title>
+        <details>GainInspirationBase.details</details>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Mood.InspirationProgressionBingoObjective</eventHandlerClass>
+        <categoryKey>GainInspiration</categoryKey>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="GainInspirationBase">
+        <defName>GainInspirationProgressionEasy</defName>
+        <difficulty>1</difficulty>
+        <goalRange>2~3</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="GainInspirationBase">
+        <defName>GainInspirationProgressionNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>4~6</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="GainInspirationBase">
+        <defName>GainInspirationProgressionHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>7~10</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="GainInspirationBase">
+        <defName>GainInspirationProgressionExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>11~15</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="GainInspirationBase">
+        <defName>MGainInspirationProgressionLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>16~21</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

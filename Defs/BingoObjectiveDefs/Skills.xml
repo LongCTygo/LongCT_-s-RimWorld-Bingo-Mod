@@ -1,0 +1,75 @@
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="SkillLevelBase">
+        <label>have a skilled colonist</label>
+        <title>SkillLevelBase.title</title>
+        <details>SkillLevelBase.details</details>
+        <categoryKey>SkillLevel</categoryKey>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Skill.SkillLevelProgressionBingoObjective</eventHandlerClass>
+        <candidates>
+            <li>
+                <value>Shooting</value>
+            </li>
+            <li>
+                <value>Melee</value>
+                <offset>-3</offset>
+            </li>
+            <li>
+                <value>Construction</value>
+            </li>
+            <li>
+                <value>Mining</value>
+            </li>
+            <li>
+                <value>Cooking</value>
+            </li>
+            <li>
+                <value>Plants</value>
+            </li>
+            <li>
+                <value>Animals</value>
+                <offset>-2</offset>
+            </li>
+            <li>
+                <value>Crafting</value>
+            </li>
+            <li>
+                <value>Artistic</value>
+            </li>
+            <li>
+                <value>Medicine</value>
+            </li>
+            <li>
+                <value>Social</value>
+                <offset>-3</offset>
+            </li>
+            <li>
+                <value>Intellectual</value>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SkillLevelBase">
+        <defName>SkillLevelEasy</defName>
+        <difficulty>1</difficulty>
+        <goalRange>10~11</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SkillLevelBase">
+        <defName>SkillLevelNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>12~13</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SkillLevelBase">
+        <defName>SkillLevelHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>14~15</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SkillLevelBase">
+        <defName>SkillLevelExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>16~17</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SkillLevelBase">
+        <defName>SkillLevelLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>18~19</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

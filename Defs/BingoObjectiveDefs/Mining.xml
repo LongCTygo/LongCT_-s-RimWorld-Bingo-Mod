@@ -1,0 +1,58 @@
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="MiningBase">
+        <label>mine</label>
+        <title>MiningBase.title</title>
+        <details>MiningBase.details</details>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Mining.MiningProgressionBingoObjective</eventHandlerClass>
+        <categoryKey>MiningResources</categoryKey>
+        <candidates>
+            <li>
+                <value>Steel</value>
+                <multiplier>1.5</multiplier>
+            </li>
+            <li>
+                <value>Silver</value>
+            </li>
+            <li>
+                <value>Plasteel</value>
+                <multiplier>0.2</multiplier>
+            </li>
+            <li>
+                <value>Jade</value>
+                <multiplier>0.25</multiplier>
+            </li>
+            <li>
+                <value>Gold</value>
+                <multiplier>0.1</multiplier>
+            </li>
+            <li>
+                <value>Uranium</value>
+                <multiplier>0.2</multiplier>
+            </li>
+            <li>
+                <value>ComponentIndustrial</value>
+                <multiplier>0.032</multiplier>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="MiningBase">
+        <defName>MiningNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>5000~10000</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="MiningBase">
+        <defName>MiningHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>10000~15000</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="MiningBase">
+        <defName>MiningExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>15000~20000</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="MiningBase">
+        <defName>MiningLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>20000~25000</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

@@ -1,0 +1,29 @@
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="VisitBiomesBase">
+        <label>visit biomes</label>
+        <title>VisitBiomesBase.title</title>
+        <details>VisitBiomesBase.details</details>
+        <categoryKey>VisitBiomes</categoryKey>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Biomes.VisitBiomesProgressionBingoObjective</eventHandlerClass>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="VisitBiomesBase">
+        <defName>VisitBiomesNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>2~3</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="VisitBiomesBase">
+        <defName>VisitBiomesHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>4~5</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="VisitBiomesBase">
+        <defName>VisitBiomesExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>6~7</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="VisitBiomesBase">
+        <defName>VisitBiomesLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>8~9</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

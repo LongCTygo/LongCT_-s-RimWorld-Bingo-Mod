@@ -1,0 +1,44 @@
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="QuestProgressionBase">
+        <label>complete X quests</label>
+        <title>QuestProgressionBase.title</title>
+        <details>QuestProgressionBase.details</details>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Quest.QuestProgressionBingoObjective</eventHandlerClass>
+        <categoryKey>QuestProgression</categoryKey>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="QuestProgressionBase">
+        <defName>QuestProgressionEasy</defName>
+        <difficulty>1</difficulty>
+        <goalRange>3~4</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="QuestProgressionBase">
+        <defName>QuestProgressionNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>5~6</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="QuestProgressionBase">
+        <defName>QuestProgressionHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>7~8</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="QuestProgressionBase">
+        <defName>QuestProgressionExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>9~10</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="QuestProgressionBase">
+        <defName>QuestProgressionLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>11~12</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef>
+        <defName>ShipToTheStarArrival</defName>
+        <label>reach the location of the starship</label>
+        <title>ShipToTheStarArrival.title</title>
+        <details>ShipToTheStarArrival.details</details>
+        <difficulty>5</difficulty>
+        <weight>0.25</weight>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Quest.QuestShipBingoObjective</eventHandlerClass>
+        <categoryKey>QuestSpecial</categoryKey>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

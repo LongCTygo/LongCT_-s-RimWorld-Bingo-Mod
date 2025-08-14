@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <MainButtonDef>
+    <defName>Bingo</defName>
+    <label>bingo</label>
+    <description>View your bingo board - all objectives, their progress.</description>
+    <workerClass>RimWorldBingoMod.UI.MainButtonWorker_ToggleBingoTab</workerClass>
+    <tabWindowClass>RimWorldBingoMod.UI.MainTabWindow_Bingo</tabWindowClass>
+    <order>100</order>
+    <closesWorldView>false</closesWorldView>
+    <validWithoutMap>true</validWithoutMap>
+    <minimized>True</minimized>
+  </MainButtonDef>
+</Defs>

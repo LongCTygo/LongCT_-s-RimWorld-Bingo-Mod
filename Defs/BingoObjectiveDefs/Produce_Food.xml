@@ -1,0 +1,72 @@
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="ProduceFoodBase" ParentName="ProduceBase">
+        <label>cook stuffs</label>
+        <title>ProduceFoodBase.title</title>
+        <details>ProduceFoodBase.details</details>
+        <categoryKey>ProduceFood</categoryKey>
+        <candidates>
+            <li>
+                <value>MealSimple</value>
+                <weight>3</weight>
+            </li>
+            <li>
+                <value>MealFine</value>
+            </li>
+            <li>
+                <value>MealFine_Veg</value>
+                <multiplier>0.8</multiplier>
+            </li>
+            <li>
+                <value>MealFine_Meat</value>
+                <multiplier>0.8</multiplier>
+            </li>
+            <li>
+                <value>MealLavish</value>
+                <multiplier>0.5</multiplier>
+            </li>
+            <li>
+                <value>MealLavish_Veg</value>
+                <multiplier>0.4</multiplier>
+            </li>
+            <li>
+                <value>MealLavish_Meat</value>
+                <multiplier>0.4</multiplier>
+            </li>
+            <li>
+                <value>MealSurvivalPack</value>
+                <weight>3</weight>
+                <multiplier>0.8</multiplier>
+            </li>
+            <li>
+                <value>Kibble</value>
+                <weight>2</weight>
+                <multiplier>12</multiplier>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">
+                <value>BabyFood</value>
+                <weight>3</weight>
+                <multiplier>20</multiplier>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ProduceFoodBase">
+        <defName>ProduceFoodNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>200~500</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ProduceFoodBase">
+        <defName>ProduceFoodHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>500~800</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ProduceFoodBase">
+        <defName>ProduceFoodExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>800~1100</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ProduceFoodBase">
+        <defName>ProduceFoodLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>1100~1400</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

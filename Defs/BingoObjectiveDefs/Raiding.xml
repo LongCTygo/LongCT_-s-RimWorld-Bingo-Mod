@@ -1,0 +1,52 @@
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="RaidFactionBase">
+        <label>destroy settlement</label>
+        <title>RaidFactionBase.title</title>
+        <details>RaidFactionBase.details</details>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Raiding.RaidingFactionBingoObjective</eventHandlerClass>
+        <categoryKey>DestroySettlement</categoryKey>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="RaidFactionBase">
+        <defName>RaidFactionHard</defName>
+        <difficulty>3</difficulty>
+        <modExtensions>
+            <li Class="RimWorldBingoMod.Objectives.Extension.BingoObjectiveExtension">
+                <techLevelCandidates>
+                    <li>
+                        <value>Neolithic</value>
+                    </li>
+                </techLevelCandidates>
+            </li>
+        </modExtensions>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="RaidFactionBase">
+        <defName>RaidFactionExpert</defName>
+        <difficulty>4</difficulty>
+        <modExtensions>
+            <li Class="RimWorldBingoMod.Objectives.Extension.BingoObjectiveExtension">
+                <techLevelCandidates>
+                    <li>
+                        <value>Spacer</value>
+                        <weight>3</weight>
+                    </li>
+                    <li>
+                        <value>Industrial</value>
+                    </li>
+                </techLevelCandidates>
+            </li>
+        </modExtensions>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="RaidFactionBase" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>RaidFactionLis</defName>
+        <difficulty>5</difficulty>
+        <modExtensions>
+            <li Class="RimWorldBingoMod.Objectives.Extension.BingoObjectiveExtension">
+                <techLevelCandidates>
+                    <li>
+                        <value>Ultra</value>
+                    </li>
+                </techLevelCandidates>
+            </li>
+        </modExtensions>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

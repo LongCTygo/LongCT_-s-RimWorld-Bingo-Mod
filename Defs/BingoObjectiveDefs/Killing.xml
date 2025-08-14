@@ -1,0 +1,34 @@
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="KillHumanoidBase">
+        <label>kill humanoids</label>
+        <title>KillHumanoidBase.title</title>
+        <details>KillHumanoidBase.details</details>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Killing.HumanoidKilledProgressionBingoObjective</eventHandlerClass>
+        <categoryKey>KillHumanoid</categoryKey>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="KillHumanoidBase">
+        <defName>KillHumanoidEasy</defName>
+        <difficulty>1</difficulty>
+        <goalRange>10~20</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="KillHumanoidBase">
+        <defName>KillHumanoidNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>20~50</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="KillHumanoidBase">
+        <defName>KillHumanoidHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>50~100</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="KillHumanoidBase">
+        <defName>KillHumanoidExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>100~200</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="KillHumanoidBase">
+        <defName>KillHumanoidLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>200~300</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

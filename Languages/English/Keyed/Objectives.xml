@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <BingoObjective.Animal.Egg>Egg</BingoObjective.Animal.Egg>
+    <BingoObjective.Animal.Milk>Milk</BingoObjective.Animal.Milk>
+    <BingoObjective.Animal.Wool>Wool</BingoObjective.Animal.Wool>
+    <BingoObjective.Animal.Chemfuel>Chemfuel</BingoObjective.Animal.Chemfuel>
+    <!-- ObjectivesInfo -->
+    <NullObjective.title>Impossible</NullObjective.title>
+    <NullObjective.details>This objective cannot be completed.</NullObjective.details>
+    <TraitRecruitBase.title>Recruit a {0} pawn</TraitRecruitBase.title>
+    <TraitRecruitBase.details>Recruit someone to your colony who has the trait '{0}'.</TraitRecruitBase.details>
+    <ColonistCountBase.title>Have {0} colonists</ColonistCountBase.title>
+    <ColonistCountBase.details>At any point, reach a colonist count of {0}. Quests lodgers (desperate refugees, ect...) do not count.</ColonistCountBase.details>
+    <HarvestAnimal.title>Harvest {0} {1} from ranching.</HarvestAnimal.title>
+    <HarvestAnimal.details>Harvest a total of {0} {1} from ranching animals.</HarvestAnimal.details>
+    <MiningBase.title>Mine {0} {1}</MiningBase.title>
+    <MiningBase.details>Mine and/or deep-drill a total of {0} {1}.</MiningBase.details>
+    <PlantYieldProgressionBase.title>Harvest {0} {1}</PlantYieldProgressionBase.title>
+    <PlantYieldProgressionBase.details>Harvest a total of {0} {1}.</PlantYieldProgressionBase.details>
+    <CraftBase.title>Produce {0} {1}{2}{3}</CraftBase.title>
+    <CraftBase.details>Produce a total of {0} {1}{2}{3}.</CraftBase.details>
+    <ProduceFoodBase.title>Cook {0} {3}</ProduceFoodBase.title>
+    <ProduceFoodBase.details>Cook a total of {0} {3}.</ProduceFoodBase.details>
+    <QuestProgressionBase.title>Complete {0} quests</QuestProgressionBase.title>
+    <QuestProgressionBase.details>Complete {0} different quests.</QuestProgressionBase.details>
+    <ShipToTheStarArrival.title>Reach the location of the starship</ShipToTheStarArrival.title>
+    <ShipToTheStarArrival.details>Send a colonist to Charlon Whitestone's ship located on the world map.</ShipToTheStarArrival.details>
+    <RaidFactionBase.title>Destroy a {0} faction's settlement</RaidFactionBase.title>
+    <RaidFactionBase.details>Raid and destroy a settlement of a faction with a tech level of {0}. For references: Neolithic = Tribal, Industrial = Outlanders, Spacer = Pirates, Ultra = Empire.</RaidFactionBase.details>
+    <ResearchBase.title>Research {0}</ResearchBase.title>
+    <ResearchBase.details>Complete the research {0}.</ResearchBase.details>
+    <ResearchProgressionBase.title>Research {0} projects</ResearchProgressionBase.title>
+    <ResearchProgressionBase.details>Complete {0} different researches.</ResearchProgressionBase.details>
+    <SkillLevelBase.title>Have a level {1} {0} colonist</SkillLevelBase.title>
+    <SkillLevelBase.details>Have a colonist with a {0} skill of {1}.</SkillLevelBase.details>
+    <VisitBiomesBase.title>Visit {0} different biomes</VisitBiomesBase.title>
+    <VisitBiomesBase.details>Travel through {0} different biomes.</VisitBiomesBase.details>
+    <MentalBreakBase.title>Experience {0} {1}mental breaks.</MentalBreakBase.title>
+    <MentalBreakBase.details>Have your colonists - intentionally or not - experience {0} {1}mental breaks. They can be the same mental break type, but they must be their own instance of mental break.</MentalBreakBase.details>
+    <GainInspirationBase.title>Have {0} inspirations</GainInspirationBase.title>
+    <GainInspirationBase.details>Have people in your colony experience {0} different instances of inspiration.</GainInspirationBase.details>
+    <KillHumanoidBase.title>Kill {0} humans</KillHumanoidBase.title>
+    <KillHumanoidBase.details>Have your colonists kill {0} humans.</KillHumanoidBase.details>
+</LanguageData>

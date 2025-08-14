@@ -1,0 +1,314 @@
+<Defs>
+    <!-- Weapons -->
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="CraftWeaponQuality" ParentName="CraftQualityBase">
+        <categoryKey>ProduceWeaponWithQuality</categoryKey>
+        <candidates>
+            <!-- Fabrication -->
+            <li>
+                <value>Gun_ChargeRifle</value>
+                <multiplier>0.01</multiplier>
+            </li>
+            <li>
+                <value>Gun_ChargeLance</value>
+                <multiplier>0.01</multiplier>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <value>Gun_BeamRepeater</value>
+                <multiplier>0.01</multiplier>
+            </li>
+            <!-- Microelectronics -->
+            <li>
+                <value>Gun_Minigun</value>
+                <multiplier>0.02</multiplier>
+            </li>
+            <li>
+                <value>Gun_AssaultRifle</value>
+                <multiplier>0.03</multiplier>
+            </li>
+            <li>
+                <value>Gun_SniperRifle</value>
+                <multiplier>0.03</multiplier>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">
+                <value>Gun_HellcatRifle</value>
+                <multiplier>0.03</multiplier>
+            </li>
+            <!-- Electricity -->
+            <li>
+                <value>Gun_Revolver</value>
+                <multiplier>0.07</multiplier>
+            </li>
+            <li>
+                <value>Gun_MachinePistol</value>
+                <multiplier>0.07</multiplier>
+            </li>
+            <li>
+                <value>Gun_PumpShotgun</value>
+                <multiplier>0.05</multiplier>
+            </li>
+            <li>
+                <value>Gun_BoltActionRifle</value>
+                <multiplier>0.05</multiplier>
+            </li>
+            <!-- Neolithic -->
+            <li>
+                <value>Pila</value>
+                <multiplier>0.1</multiplier>
+            </li>
+            <li>
+                <value>Bow_Recurve</value>
+                <multiplier>0.1</multiplier>
+            </li>
+            <!-- Melee -->
+            <li>
+                <value>MeleeWeapon_Mace</value>
+                <multiplier>0.1</multiplier>
+            </li>
+            <li>
+                <value>MeleeWeapon_LongSword</value>
+                <multiplier>0.1</multiplier>
+            </li>
+            <li>
+                <value>MeleeWeapon_Knife</value>
+                <multiplier>0.1</multiplier>
+            </li>
+            <li>
+                <value>MeleeWeapon_Spear</value>
+                <multiplier>0.1</multiplier>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftWeaponQuality">
+        <defName>ProduceWeaponWithQualityEasy</defName>
+        <difficulty>1</difficulty>
+        <goalRange>1~100</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftWeaponQuality">
+        <defName>ProduceWeaponWithQualityNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>101~200</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftWeaponQuality">
+        <defName>ProduceWeaponWithQualityHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>201~300</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftWeaponQuality">
+        <defName>ProduceWeaponWithQualityExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>301~400</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftWeaponQuality">
+        <defName>ProduceWeaponWithQualityLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>401~500</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <!-- Armor -->
+     <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="CraftArmorQuality" ParentName="CraftQualityBase">
+        <categoryKey>ProduceArmorWithQuality</categoryKey>
+        <candidates>
+            <!-- Headgear -->
+            <li>
+                <value>Apparel_SimpleHelmet</value>
+                <multiplier>0.03</multiplier>
+            </li>
+            <li>
+                <value>Apparel_AdvancedHelmet</value>
+                <multiplier>0.02</multiplier>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <value>Apparel_VacsuitHelmet</value>
+                <multiplier>0.03</multiplier>
+            </li>
+            <li>
+                <value>Apparel_ArmorHelmetRecon</value>
+                <multiplier>0.01</multiplier>
+            </li>
+            <li>
+                <value>Apparel_ArmorHelmetReconPrestige</value>
+                <multiplier>0.01</multiplier>
+            </li>
+            <!-- Armor -->
+            <li>
+                <value>Apparel_FlakJacket</value>
+                <multiplier>0.02</multiplier>
+            </li>
+            <li>
+                <value>Apparel_FlakPants</value>
+                <multiplier>0.02</multiplier>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Biotech,Ludeon.RimWorld.Odyssey">
+                <value>Apparel_VacsuitChildren</value>
+                <multiplier>0.03</multiplier>
+            </li>
+            <li>
+                <value>Apparel_ArmorRecon</value>
+                <multiplier>0.01</multiplier>
+            </li>
+            <li>
+                <value>Apparel_ArmorReconPrestige</value>
+                <multiplier>0.01</multiplier>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftArmorQuality">
+        <defName>ProduceArmorWithQualityEasy</defName>
+        <difficulty>1</difficulty>
+        <goalRange>1~100</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftArmorQuality">
+        <defName>ProduceArmorWithQualityNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>101~200</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftArmorQuality">
+        <defName>ProduceArmorWithQualityHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>201~300</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftArmorQuality">
+        <defName>ProduceArmorWithQualityExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>301~400</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftArmorQuality">
+        <defName>ProduceArmorWithQualityLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>401~500</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <!-- Apparel -->
+     <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="CraftApparelQuality" ParentName="CraftApparelQualityBase">
+        <categoryKey>ProduceApparelWithQualityAndStuff</categoryKey>
+        <candidates>
+            <!-- Headgear -->
+            <li>
+                <value>Apparel_BowlerHat</value>
+                <multiplier>0.05</multiplier>
+            </li>
+            <li>
+                <value>Apparel_CowboyHat</value>
+                <multiplier>0.04</multiplier>
+            </li>
+            <li>
+                <value>Apparel_HatHood</value>
+                <multiplier>0.02</multiplier>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Royalty">
+                <value>Apparel_HatLadies</value>
+                <multiplier>0.02</multiplier>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">
+                <value>Apparel_AuthorityCap</value>
+                <multiplier>0.04</multiplier>
+            </li>
+            <!-- Body -->
+            <li>
+                <value>Apparel_TribalA</value>
+                <multiplier>0.017</multiplier>
+            </li>
+            <li>
+                <value>Apparel_CollarShirt</value>
+                <multiplier>0.022</multiplier>
+            </li>
+            <li>
+                <value>Apparel_Pants</value>
+                <multiplier>0.025</multiplier>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">
+                <value>Apparel_KidRomper</value>
+                <multiplier>0.033</multiplier>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">
+                <value>Apparel_AuthorityCap</value>
+                <multiplier>0.04</multiplier>
+            </li>
+            <!-- Outer -->
+             <li>
+                <value>Apparel_Duster</value>
+                <multiplier>0.0125</multiplier>
+            </li>
+            <li>
+                <value>Apparel_Jacket</value>
+                <multiplier>0.014</multiplier>
+            </li>
+            <li>
+                <value>Apparel_Parka</value>
+                <multiplier>0.0125</multiplier>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">
+                <value>Apparel_LabCoat</value>
+                <multiplier>0.017</multiplier>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Royalty">
+                <value>Apparel_VestRoyal</value>
+                <multiplier>0.022</multiplier>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftApparelQuality">
+        <defName>ProduceApparelWithQualityAndStuffEasy</defName>
+        <difficulty>1</difficulty>
+        <goalRange>500~800</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftApparelQuality">
+        <defName>ProduceApparelWithQualityAndStuffNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>800~1600</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftApparelQuality">
+        <defName>ProduceApparelWithQualityAndStuffHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>1600~3200</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftApparelQuality">
+        <defName>ProduceApparelWithQualityAndStuffExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>3200~4800</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftApparelQuality">
+        <defName>ProduceApparelWithQualityAndStuffLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>4800~6400</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <!-- Sculpture -->
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="CraftArtQuality" ParentName="CraftArtQualityBase">
+        <categoryKey>ProduceArtWithQualityAndStuff</categoryKey>
+        <candidates>
+            <li>
+                <value>SculptureSmall</value>
+                <multiplier>2</multiplier>
+            </li>
+            <li>
+                <value>SculptureLarge</value>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">
+                <value>SculptureTerror</value>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftArtQuality">
+        <defName>ProduceArtWithQualityAndStuffEasy</defName>
+        <difficulty>1</difficulty>
+        <goalRange>2000~5000</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftArtQuality">
+        <defName>ProduceArtWithQualityAndStuffNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>5000~10000</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftArtQuality">
+        <defName>ProduceArtWithQualityAndStuffHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>10000~15000</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftArtQuality">
+        <defName>ProduceArtWithQualityAndStuffExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>15000~20000</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="CraftArtQuality">
+        <defName>ProduceArtWithQualityAndStuffLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>20000~25000</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

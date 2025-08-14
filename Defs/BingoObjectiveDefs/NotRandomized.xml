@@ -1,0 +1,10 @@
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef>
+        <defName>NullObjective</defName>
+        <label>impossible</label>
+        <title>NullObjective.title</title>
+        <details>NullObjective.details</details>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.ImpossibleBingoObjective</eventHandlerClass>
+        <randomlySelectable>false</randomlySelectable>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <Bingo.Letter.ObjectiveComplete.label>Bingo Objective Completed!</Bingo.Letter.ObjectiveComplete.label>
+    <Bingo.Letter.ObjectiveComplete.text>You have completed the objective '{0}'.</Bingo.Letter.ObjectiveComplete.text>
+    <Bingo.Letter.BingoComplete.label>BINGO!</Bingo.Letter.BingoComplete.label>
+    <Bingo.Letter.BingoComplete.text>You have completed a line of bingo! You currently have {0} bingo(s).\nYou achieved this milestone in {1} in-game time, and {2} in real time.</Bingo.Letter.BingoComplete.text>
+    <Bingo.Letter.BingoBoardComplete.label>All Objectives Completed!</Bingo.Letter.BingoBoardComplete.label>
+    <Bingo.Letter.BingoBoardComplete.text>You have completed all of the available objectives! Congratulations!\nYou completed the board in {1} in-game time, and {2} in real time.\nLet's look back at all of the milestones you've achieved:</Bingo.Letter.BingoBoardComplete.text>
+    <Bingo.Letter.MilestoneRecord>{0}. {1} IGT, {2} RTA</Bingo.Letter.MilestoneRecord>
+</LanguageData>

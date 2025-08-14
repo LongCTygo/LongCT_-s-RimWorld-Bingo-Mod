@@ -1,0 +1,54 @@
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="HarvestAnimal">
+        <label>harvest animal</label>
+        <title>HarvestAnimal.title</title>
+        <details>HarvestAnimal.details</details>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Production.AnimalProductProgressionBingoObjective</eventHandlerClass>
+        <categoryKey>HarvestAnimalProduct</categoryKey>
+        <modExtensions>
+            <li Class="RimWorldBingoMod.Objectives.Extension.BingoObjectiveExtension">
+                <animalProductCandidates>
+                    <li>
+                        <value>Egg</value>
+                        <multiplier>0.1</multiplier>
+                    </li>
+                    <li>
+                        <value>Milk</value>
+                    </li>
+                    <li>
+                        <value>Wool</value>
+                    </li>
+                    <li>
+                        <value>Chemfuel</value>
+                        <weight>0.5</weight>
+                    </li>
+                </animalProductCandidates>
+            </li>
+        </modExtensions>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="HarvestAnimal">
+        <defName>HarvestAnimalEasy</defName>
+        <difficulty>1</difficulty>
+        <goalRange>500~750</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="HarvestAnimal">
+        <defName>HarvestAnimalNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>750~1500</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="HarvestAnimal">
+        <defName>HarvestAnimalHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>1500~2000</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="HarvestAnimal">
+        <defName>HarvestAnimalExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>2500~3000</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="HarvestAnimal">
+        <defName>HarvestAnimalLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>3500~4000</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>
