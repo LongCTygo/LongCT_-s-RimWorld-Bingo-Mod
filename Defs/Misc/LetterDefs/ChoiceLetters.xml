@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <LetterDef ParentName="CustomChoiceLetterBase">
+    <defName>BingoRewards</defName>
+    <letterClass>RimWorldBingoMod.Bingo.ChoiceLetter_BingoRewards</letterClass>
+  </LetterDef>
+</Defs>

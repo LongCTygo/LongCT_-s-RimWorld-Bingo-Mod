@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <BackstoryDef>
+        <defName>ArchotechCreation</defName>
+        <title>archotech creation</title>
+        <titleShort>archotech creation</titleShort>
+        <description>[PAWN_nameDef] is a creation of an archotech mind. Though [PAWN_pronoun] claimed to have originated from a glitterworld family, [PAWN_pronoun] was actually birthed into this world already an adult, with seemingly rather impressive characteristics. It's unknown where [PAWN_nameDef] got [PAWN_possessive] fake childhood stories from.</description>
+        <shuffleable>false</shuffleable>
+    </BackstoryDef>
+</Defs>

@@ -1,0 +1,15 @@
+<Defs>
+    <ThoughtDef>
+        <defName>BingoMoodBoost</defName>
+        <durationDays>5</durationDays>
+        <stackLimit>-1</stackLimit>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <stages>
+            <li>
+                <label>bingo!</label>
+                <description>We completed a line of bingo! It may sound unimpressive, but we're strangely very happy about it.</description>
+                <baseMoodEffect>5</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+</Defs>

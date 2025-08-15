@@ -7,4 +7,23 @@
     <Bingo.Letter.BingoBoardComplete.label>All Objectives Completed!</Bingo.Letter.BingoBoardComplete.label>
     <Bingo.Letter.BingoBoardComplete.text>You have completed all of the available objectives! Congratulations!\nYou completed the board in {1} in-game time, and {2} in real time.\nLet's look back at all of the milestones you've achieved:</Bingo.Letter.BingoBoardComplete.text>
     <Bingo.Letter.MilestoneRecord>{0}. {1} IGT, {2} RTA</Bingo.Letter.MilestoneRecord>
+    <Bingo.Letter.StrangeSign1>In an instant, a strange psychic wave passed through your colonists. You don't know where it came from, but rest assured that the wave is harmless - your colonists will be a bit happier for a few days.</Bingo.Letter.StrangeSign1>
+    <!-- Choices -->
+    <Bingo.Letter.RewardsPower>I seek power</Bingo.Letter.RewardsPower>
+    <Bingo.Letter.RewardsLife>I seek life</Bingo.Letter.RewardsLife>
+    <Bingo.Letter.RewardsDeath>I seek death</Bingo.Letter.RewardsDeath>
+    <Bingo.Letter.RewardsStrength>I seek strength</Bingo.Letter.RewardsStrength>
+    <Bingo.Letter.RewardsPawn>I seek you</Bingo.Letter.RewardsPawn>
+    <Bingo.Letter.RewardsNothing>I seek none</Bingo.Letter.RewardsNothing>
+    <!-- Letters from Archotech mind -->
+    <Bingo.Letter.ArchotechReward.label>Archotech call</Bingo.Letter.ArchotechReward.label>
+    <Bingo.Letter.ArchotechReward1.text>You received a message coming from a distant archotech mind. Your actions on the bingo board has attracted attentions of a powerful being. You aren't sure of their purposes, but they assured you that they only have good intentions.\nTo prove that to you, they're willing to grant you a special reward. You just need to reply to their question:\n"What do you seek?"</Bingo.Letter.ArchotechReward1.text>
+    <Bingo.Letter.ArchotechReward2.text>The archotech mind came back to you. They seem sastified with your progresss so far. They're willing to grant you another gift.\nAgain, they asked you:\n"What do you seek?"</Bingo.Letter.ArchotechReward2.text>
+    <Bingo.Letter.ArchotechReward3.text>The archotech mind came back to you. They're here to deliver to you one more reward. They also told you one thing: complete everything the board has, and they'll tell you everything.\nFor perhaps the last time, they asked you:\n"What do you seek?"</Bingo.Letter.ArchotechReward3.text>
+    <Bingo.Letter.ArchotechRewardArrived.label>Rewards arrived</Bingo.Letter.ArchotechRewardArrived.label>
+    <Bingo.Letter.ArchotechRewardArrived.text>Falling from the sky, the rewards you seek has arrived. The archotech mind shuts its communication with you.\nComplete more bingo lines to potentially attract their attentions again.</Bingo.Letter.ArchotechRewardArrived.text>
+    <Bingo.Letter.ArchotechRewardLastCall.label>Archotech final call</Bingo.Letter.ArchotechRewardLastCall.label>
+    <Bingo.Letter.ArchotechRewardLastCall.text>The archotech mind contacted you. They're really impressed - no one else on this rimworld has ever seeked this deep into the board.\nThey're willing to grant you unimaginable treasures - the scale of which a colony might take decades to centuries to gather all of. They will also ensure your safety from any imminent lethal threat - any currently arriving planetkillers will vanish into thin air.\nAdditionally, they now grant you the ability to reset your bingo board. Complete more objectives on new bingo boards to once again receive rewards from them.\nDo you accept? (the devs didn't make an option for you to reject, so...)</Bingo.Letter.ArchotechRewardLastCall.text>
+    <Bingo.Letter.ArchotechFinalRewardRewardArrived.label>Rewards arrived</Bingo.Letter.ArchotechFinalRewardRewardArrived.label>
+    <Bingo.Letter.ArchotechFinalRewardRewardArrived.text>Your rewards have arrived.\nYou can continue with a new bingo board by selecting Generate New Board on your Bingo tab.</Bingo.Letter.ArchotechFinalRewardRewardArrived.text>
 </LanguageData>

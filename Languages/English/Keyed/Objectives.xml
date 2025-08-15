@@ -41,4 +41,8 @@
     <GainInspirationBase.details>Have people in your colony experience {0} different instances of inspiration.</GainInspirationBase.details>
     <KillHumanoidBase.title>Kill {0} humans</KillHumanoidBase.title>
     <KillHumanoidBase.details>Have your colonists kill {0} humans.</KillHumanoidBase.details>
+    <GetRoyalTitleBase.title>Gain the {0} title</GetRoyalTitleBase.title>
+    <GetRoyalTitleBase.details>Have someone in your colony receive the title of {0}.</GetRoyalTitleBase.details>
+    <ApplyTechprintsBase.title>Apply {0} techprint(s)</ApplyTechprintsBase.title>
+    <ApplyTechprintsBase.details>Apply {0} techprint(s).</ApplyTechprintsBase.details>
 </LanguageData>
