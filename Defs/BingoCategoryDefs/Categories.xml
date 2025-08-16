@@ -1,7 +1,7 @@
 <Defs>
     <RimWorldBingoMod.Objectives.BingoCategoryDef>
         <defName>ResearchThing</defName>
-        <limit>3</limit>
+        <limit>2</limit>
     </RimWorldBingoMod.Objectives.BingoCategoryDef>
     <RimWorldBingoMod.Objectives.BingoCategoryDef>
         <defName>ResearchProgression</defName>
@@ -102,6 +102,15 @@
     </RimWorldBingoMod.Objectives.BingoCategoryDef>
     <RimWorldBingoMod.Objectives.BingoCategoryDef>
         <defName>ApplyTechprints</defName>
+        <limit>1</limit>
+    </RimWorldBingoMod.Objectives.BingoCategoryDef>
+    <!-- Anomaly -->
+    <RimWorldBingoMod.Objectives.BingoCategoryDef>
+        <defName>ResearchThingAnomaly</defName>
+        <limit>2</limit>
+    </RimWorldBingoMod.Objectives.BingoCategoryDef>
+    <RimWorldBingoMod.Objectives.BingoCategoryDef>
+        <defName>SpendBioferrite</defName>
         <limit>1</limit>
     </RimWorldBingoMod.Objectives.BingoCategoryDef>
 </Defs>

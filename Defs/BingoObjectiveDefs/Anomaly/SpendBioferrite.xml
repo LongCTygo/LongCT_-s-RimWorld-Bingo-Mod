@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="SpendBioferriteBase">
+        <label>spend X bioferrite on psychic rituals</label>
+        <title>SpendBioferriteBase.title</title>
+        <details>SpendBioferriteBase.details</details>
+        <categoryKey>SpendBioferrite</categoryKey>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Anomaly.SpendBioferriteProgressionBingoObjective</eventHandlerClass>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SpendBioferriteBase">
+        <defName>SpendBioferriteBaseEasy</defName>
+        <difficulty>1</difficulty>
+        <goalRange>60~90</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SpendBioferriteBase">
+        <defName>SpendBioferriteBaseNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>90~150</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SpendBioferriteBase">
+        <defName>SpendBioferriteBaseHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>150~360</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SpendBioferriteBase">
+        <defName>SpendBioferriteBaseExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>360~720</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SpendBioferriteBase">
+        <defName>SpendBioferriteBaseLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>720~1200</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

@@ -114,9 +114,6 @@
             <li>
                 <value>BionicSpine</value>
             </li>
-            <li MayRequire="Ludeon.RimWorld.Anomaly">
-                <value>RevenantVertebrae</value>
-            </li>
             <!-- Head -->
             <!-- Only craftable with Royalty -->
             <li MayRequire="Ludeon.RimWorld.Royalty">

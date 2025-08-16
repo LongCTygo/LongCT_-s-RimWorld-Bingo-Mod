@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="ResearchAnomalyBase" ParentName="ResearchBase" MayRequire="Ludeon.RimWorld.Anomaly">
+        <categoryKey>ResearchThingAnomaly</categoryKey>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ResearchAnomalyBase">
+        <defName>ResearchAnomalyBaseNormal</defName>
+        <difficulty>2</difficulty>
+        <candidates>
+            <li>
+                <value>BlissLobotomy</value>
+            </li>
+            <li>
+                <value>SummonFleshbeastsPlayer</value>
+            </li>
+            <li>
+                <value>Chronophagy</value>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ResearchAnomalyBase">
+        <defName>ResearchAnomalyBaseHard</defName>
+        <difficulty>3</difficulty>
+        <candidates>
+            <li>
+                <value>AtmosphericHeater</value>
+            </li>
+            <li>
+                <value>MindNumbSerum</value>
+            </li>
+            <li>
+                <value>GhoulResurrection</value>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ResearchAnomalyBase">
+        <defName>ResearchAnomalyBaseExpert</defName>
+        <difficulty>4</difficulty>
+        <candidates>
+            <li>
+                <value>BloodRain</value>
+            </li>
+            <li>
+                <value>PleasurePulse</value>
+            </li>
+            <li>
+                <value>DeathRefusal</value>
+            </li>
+            <li>
+                <value>Brainwipe</value>
+            </li>
+        </candidates>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

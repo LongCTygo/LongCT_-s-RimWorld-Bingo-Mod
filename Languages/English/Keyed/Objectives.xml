@@ -48,4 +48,7 @@
     <GetRoyalTitleBase.details>Have someone in your colony receive the title of {0}.</GetRoyalTitleBase.details>
     <ApplyTechprintsBase.title>Apply {0} techprint(s)</ApplyTechprintsBase.title>
     <ApplyTechprintsBase.details>Apply {0} techprint(s).</ApplyTechprintsBase.details>
+    <!-- Anomaly -->
+    <SpendBioferriteBase.title>Spend {0} Bioferrite on Psychic Rituals</SpendBioferriteBase.title>
+    <SpendBioferriteBase.details>Spend a total of {0} Bioferrite on conducting Psychic Rituals.</SpendBioferriteBase.details>
 </LanguageData>
