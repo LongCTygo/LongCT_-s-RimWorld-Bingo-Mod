@@ -2,7 +2,7 @@
     <ThoughtDef>
         <defName>BingoMoodBoost</defName>
         <durationDays>5</durationDays>
-        <stackLimit>-1</stackLimit>
+        <stackLimit>12</stackLimit>
         <thoughtClass>Thought_Memory</thoughtClass>
         <stages>
             <li>

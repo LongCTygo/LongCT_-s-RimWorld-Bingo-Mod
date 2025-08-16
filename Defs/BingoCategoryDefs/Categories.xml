@@ -92,6 +92,11 @@
         <limit>1</limit>
     </RimWorldBingoMod.Objectives.BingoCategoryDef>
     <RimWorldBingoMod.Objectives.BingoCategoryDef>
+        <defName>SellGoodsBase</defName>
+        <limit>1</limit>
+    </RimWorldBingoMod.Objectives.BingoCategoryDef>
+    <!-- Royalty -->
+    <RimWorldBingoMod.Objectives.BingoCategoryDef>
         <defName>RoyalTitle</defName>
         <limit>1</limit>
     </RimWorldBingoMod.Objectives.BingoCategoryDef>

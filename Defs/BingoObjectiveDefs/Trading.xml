@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="SellGoodsBase">
+        <label>sell X silvers worth of good</label>
+        <title>SellGoodsBase.title</title>
+        <details>SellGoodsBase.details</details>
+        <categoryKey>SellGoodsBase</categoryKey>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Trading.SellThingsProgressionBingoObjective</eventHandlerClass>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SellGoodsBase">
+        <defName>SellGoodsBaseEasy</defName>
+        <difficulty>1</difficulty>
+        <goalRange>2000~4000</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SellGoodsBase">
+        <defName>SellGoodsBaseNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>4000~7000</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SellGoodsBase">
+        <defName>SellGoodsBaseHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>7000~15000</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SellGoodsBase">
+        <defName>SellGoodsBaseExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>15000~25000</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SellGoodsBase">
+        <defName>SellGoodsBaseLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>25000~35000</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

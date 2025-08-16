@@ -20,4 +20,6 @@
 	<description>A mod that adds an automatically-tracked bingo board to your world.
 Complete objectives and form bingo lines, as fast as possible.
 	</description>
+	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=3548623559</url>
+	<modVersion IgnoreIfNoMatchingField="True">0.2</modVersion>
 </ModMetaData>
