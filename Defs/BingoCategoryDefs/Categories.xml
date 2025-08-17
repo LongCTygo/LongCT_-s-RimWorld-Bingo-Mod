@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
     <RimWorldBingoMod.Objectives.BingoCategoryDef>
         <defName>ResearchThing</defName>
@@ -93,24 +94,6 @@
     </RimWorldBingoMod.Objectives.BingoCategoryDef>
     <RimWorldBingoMod.Objectives.BingoCategoryDef>
         <defName>SellGoodsBase</defName>
-        <limit>1</limit>
-    </RimWorldBingoMod.Objectives.BingoCategoryDef>
-    <!-- Royalty -->
-    <RimWorldBingoMod.Objectives.BingoCategoryDef>
-        <defName>RoyalTitle</defName>
-        <limit>1</limit>
-    </RimWorldBingoMod.Objectives.BingoCategoryDef>
-    <RimWorldBingoMod.Objectives.BingoCategoryDef>
-        <defName>ApplyTechprints</defName>
-        <limit>1</limit>
-    </RimWorldBingoMod.Objectives.BingoCategoryDef>
-    <!-- Anomaly -->
-    <RimWorldBingoMod.Objectives.BingoCategoryDef>
-        <defName>ResearchThingAnomaly</defName>
-        <limit>2</limit>
-    </RimWorldBingoMod.Objectives.BingoCategoryDef>
-    <RimWorldBingoMod.Objectives.BingoCategoryDef>
-        <defName>SpendBioferrite</defName>
         <limit>1</limit>
     </RimWorldBingoMod.Objectives.BingoCategoryDef>
 </Defs>

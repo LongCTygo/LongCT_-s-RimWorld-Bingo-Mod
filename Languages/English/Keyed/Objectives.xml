@@ -51,4 +51,12 @@
     <!-- Anomaly -->
     <SpendBioferriteBase.title>Spend {0} Bioferrite on Psychic Rituals</SpendBioferriteBase.title>
     <SpendBioferriteBase.details>Spend a total of {0} Bioferrite on conducting Psychic Rituals.</SpendBioferriteBase.details>
+    <!-- Biotech -->
+    <ImplantXenogermComplexityBase.title>Implant a xenogerm with {0} complexity</ImplantXenogermComplexityBase.title>
+    <ImplantXenogermComplexityBase.details>Implant a xenogerm with a complexity of {0} on anyone.</ImplantXenogermComplexityBase.details>
+    <DumpWastepackBase.title>Dump {0} wastepacks</DumpWastepackBase.title>
+    <DumpWastepackBase.details>Dump {0} wastepacks on any tile on the world map. You may caravan, use drop pods, or abandon tiles containing wastepacks.</DumpWastepackBase.details>
+    <!-- Odyssey -->
+    <FishingBase.title>Fish {0} fish</FishingBase.title>
+    <FishingBase.details>Fish {0} fish. Animals fishing does count (even wild one!).</FishingBase.details>
 </LanguageData>

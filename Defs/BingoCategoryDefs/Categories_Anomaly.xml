@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoCategoryDef MayRequire="Ludeon.RimWorld.Anomaly">
+        <defName>ResearchThingAnomaly</defName>
+        <limit>2</limit>
+    </RimWorldBingoMod.Objectives.BingoCategoryDef>
+    <RimWorldBingoMod.Objectives.BingoCategoryDef MayRequire="Ludeon.RimWorld.Anomaly">
+        <defName>SpendBioferrite</defName>
+        <limit>1</limit>
+    </RimWorldBingoMod.Objectives.BingoCategoryDef>
+</Defs>

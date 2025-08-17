@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoCategoryDef MayRequire="Ludeon.RimWorld.Biotech">
+        <defName>ImplantXenogerm</defName>
+        <limit>1</limit>
+    </RimWorldBingoMod.Objectives.BingoCategoryDef>
+    <RimWorldBingoMod.Objectives.BingoCategoryDef MayRequire="Ludeon.RimWorld.Biotech">
+        <defName>DumpWasteWorld</defName>
+        <limit>1</limit>
+    </RimWorldBingoMod.Objectives.BingoCategoryDef>
+</Defs>

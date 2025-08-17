@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoCategoryDef MayRequire="Ludeon.RimWorld.Odyssey">
+        <defName>OdysseyFishing</defName>
+        <limit>1</limit>
+    </RimWorldBingoMod.Objectives.BingoCategoryDef>
+</Defs>

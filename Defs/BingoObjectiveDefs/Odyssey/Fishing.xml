@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True"
+        Name="FishingBase" MayRequire="Ludeon.RimWorld.Odyssey">
+        <label>fish X fish</label>
+        <title>FishingBase.title</title>
+        <details>FishingBase.details</details>
+        <categoryKey>OdysseyFishing</categoryKey>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Odyssey.FishingProgressionBingoObjective</eventHandlerClass>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="FishingBase">
+        <defName>FishingBaseEasy</defName>
+        <difficulty>1</difficulty>
+        <goalRange>40~70</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="FishingBase">
+        <defName>FishingBaseNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>70~120</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <!--From Hard onwards, it is expected that the player has a large body of water nearby-->
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="FishingBase">
+        <defName>FishingBaseHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>250~500</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="FishingBase">
+        <defName>FishingBaseExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>500~1000</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="FishingBase">
+        <defName>FishingBaseLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>1000~2000</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

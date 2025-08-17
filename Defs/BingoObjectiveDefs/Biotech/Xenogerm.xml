@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="ImplantXenogermComplexityBase" MayRequire="Ludeon.RimWorld.Biotech">
+        <label>implant xenogerm of X complexity</label>
+        <title>ImplantXenogermComplexityBase.title</title>
+        <details>ImplantXenogermComplexityBase.details</details>
+        <categoryKey>ImplantXenogerm</categoryKey>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Biotech.ImplantXenogermOfComplexityProgressionBingoObjective</eventHandlerClass>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ImplantXenogermComplexityBase">
+        <defName>ImplantXenogermComplexityBaseEasy</defName>
+        <difficulty>1</difficulty>
+        <goalRange>4~6</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ImplantXenogermComplexityBase">
+        <defName>ImplantXenogermComplexityBaseNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>6~12</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ImplantXenogermComplexityBase">
+        <defName>ImplantXenogermComplexityBaseHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>12~18</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ImplantXenogermComplexityBase">
+        <defName>ImplantXenogermComplexityBaseExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>18~30</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ImplantXenogermComplexityBase">
+        <defName>ImplantXenogermComplexityBaseLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>30~40</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

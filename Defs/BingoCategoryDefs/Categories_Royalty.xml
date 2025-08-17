@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoCategoryDef MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>RoyalTitle</defName>
+        <limit>1</limit>
+    </RimWorldBingoMod.Objectives.BingoCategoryDef>
+    <RimWorldBingoMod.Objectives.BingoCategoryDef MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ApplyTechprints</defName>
+        <limit>1</limit>
+    </RimWorldBingoMod.Objectives.BingoCategoryDef>
+</Defs>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="DumpWastepackBase" MayRequire="Ludeon.RimWorld.Biotech">
+        <label>dump X wastepacks</label>
+        <title>DumpWastepackBase.title</title>
+        <details>DumpWastepackBase.details</details>
+        <categoryKey>DumpWasteWorld</categoryKey>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Biotech.DumpWastepackProgressionBingoObjective</eventHandlerClass>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="DumpWastepackBase">
+        <defName>DumpWastepackBaseEasy</defName>
+        <difficulty>1</difficulty>
+        <goalRange>25~50</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="DumpWastepackBase">
+        <defName>DumpWastepackBaseNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>50~100</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="DumpWastepackBase">
+        <defName>DumpWastepackBaseHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>100~250</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="DumpWastepackBase">
+        <defName>DumpWastepackBaseExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>250~500</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="DumpWastepackBase">
+        <defName>DumpWastepackBaseLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>500~1000</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>
