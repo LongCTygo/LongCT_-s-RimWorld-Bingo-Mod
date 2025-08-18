@@ -6,27 +6,27 @@
         <categoryKey>ApplyTechprints</categoryKey>
         <eventHandlerClass>RimWorldBingoMod.Objectives.Royalty.TechprintAppliedProgressionBingoObjective</eventHandlerClass>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ApplyTechprintsBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ApplyTechprintsBase" MayRequire="Ludeon.RimWorld.Royalty">
         <defName>ApplyTechprintsBaseEasy</defName>
         <difficulty>1</difficulty>
         <goalRange>1~1</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ApplyTechprintsBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ApplyTechprintsBase" MayRequire="Ludeon.RimWorld.Royalty">
         <defName>ApplyTechprintsBaseNormal</defName>
         <difficulty>2</difficulty>
         <goalRange>2~2</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ApplyTechprintsBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ApplyTechprintsBase" MayRequire="Ludeon.RimWorld.Royalty">
         <defName>ApplyTechprintsBaseHard</defName>
         <difficulty>3</difficulty>
         <goalRange>3~4</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ApplyTechprintsBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ApplyTechprintsBase" MayRequire="Ludeon.RimWorld.Royalty">
         <defName>ApplyTechprintsBaseExpert</defName>
         <difficulty>4</difficulty>
         <goalRange>5~6</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ApplyTechprintsBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ApplyTechprintsBase" MayRequire="Ludeon.RimWorld.Royalty">
         <defName>ApplyTechprintsBaseLis</defName>
         <difficulty>5</difficulty>
         <goalRange>7~9</goalRange>

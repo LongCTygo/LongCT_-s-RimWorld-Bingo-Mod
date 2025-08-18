@@ -7,27 +7,27 @@
         <categoryKey>DumpWasteWorld</categoryKey>
         <eventHandlerClass>RimWorldBingoMod.Objectives.Biotech.DumpWastepackProgressionBingoObjective</eventHandlerClass>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="DumpWastepackBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="DumpWastepackBase" MayRequire="Ludeon.RimWorld.Biotech">
         <defName>DumpWastepackBaseEasy</defName>
         <difficulty>1</difficulty>
         <goalRange>25~50</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="DumpWastepackBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="DumpWastepackBase" MayRequire="Ludeon.RimWorld.Biotech">
         <defName>DumpWastepackBaseNormal</defName>
         <difficulty>2</difficulty>
         <goalRange>50~100</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="DumpWastepackBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="DumpWastepackBase" MayRequire="Ludeon.RimWorld.Biotech">
         <defName>DumpWastepackBaseHard</defName>
         <difficulty>3</difficulty>
         <goalRange>100~250</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="DumpWastepackBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="DumpWastepackBase" MayRequire="Ludeon.RimWorld.Biotech">
         <defName>DumpWastepackBaseExpert</defName>
         <difficulty>4</difficulty>
         <goalRange>250~500</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="DumpWastepackBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="DumpWastepackBase" MayRequire="Ludeon.RimWorld.Biotech">
         <defName>DumpWastepackBaseLis</defName>
         <difficulty>5</difficulty>
         <goalRange>500~1000</goalRange>

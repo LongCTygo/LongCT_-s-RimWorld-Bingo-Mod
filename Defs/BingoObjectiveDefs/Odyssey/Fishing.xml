@@ -8,28 +8,28 @@
         <categoryKey>OdysseyFishing</categoryKey>
         <eventHandlerClass>RimWorldBingoMod.Objectives.Odyssey.FishingProgressionBingoObjective</eventHandlerClass>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="FishingBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="FishingBase" MayRequire="Ludeon.RimWorld.Odyssey">
         <defName>FishingBaseEasy</defName>
         <difficulty>1</difficulty>
         <goalRange>40~70</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="FishingBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="FishingBase" MayRequire="Ludeon.RimWorld.Odyssey">
         <defName>FishingBaseNormal</defName>
         <difficulty>2</difficulty>
         <goalRange>70~120</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
     <!--From Hard onwards, it is expected that the player has a large body of water nearby-->
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="FishingBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="FishingBase" MayRequire="Ludeon.RimWorld.Odyssey">
         <defName>FishingBaseHard</defName>
         <difficulty>3</difficulty>
         <goalRange>250~500</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="FishingBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="FishingBase" MayRequire="Ludeon.RimWorld.Odyssey">
         <defName>FishingBaseExpert</defName>
         <difficulty>4</difficulty>
         <goalRange>500~1000</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="FishingBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="FishingBase" MayRequire="Ludeon.RimWorld.Odyssey">
         <defName>FishingBaseLis</defName>
         <difficulty>5</difficulty>
         <goalRange>1000~2000</goalRange>

@@ -7,27 +7,27 @@
         <categoryKey>ImplantXenogerm</categoryKey>
         <eventHandlerClass>RimWorldBingoMod.Objectives.Biotech.ImplantXenogermOfComplexityProgressionBingoObjective</eventHandlerClass>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ImplantXenogermComplexityBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ImplantXenogermComplexityBase" MayRequire="Ludeon.RimWorld.Biotech">
         <defName>ImplantXenogermComplexityBaseEasy</defName>
         <difficulty>1</difficulty>
         <goalRange>4~6</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ImplantXenogermComplexityBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ImplantXenogermComplexityBase" MayRequire="Ludeon.RimWorld.Biotech">
         <defName>ImplantXenogermComplexityBaseNormal</defName>
         <difficulty>2</difficulty>
         <goalRange>6~12</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ImplantXenogermComplexityBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ImplantXenogermComplexityBase" MayRequire="Ludeon.RimWorld.Biotech">
         <defName>ImplantXenogermComplexityBaseHard</defName>
         <difficulty>3</difficulty>
         <goalRange>12~18</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ImplantXenogermComplexityBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ImplantXenogermComplexityBase" MayRequire="Ludeon.RimWorld.Biotech">
         <defName>ImplantXenogermComplexityBaseExpert</defName>
         <difficulty>4</difficulty>
         <goalRange>18~30</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ImplantXenogermComplexityBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ImplantXenogermComplexityBase" MayRequire="Ludeon.RimWorld.Biotech">
         <defName>ImplantXenogermComplexityBaseLis</defName>
         <difficulty>5</difficulty>
         <goalRange>30~40</goalRange>

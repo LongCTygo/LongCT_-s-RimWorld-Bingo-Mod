@@ -3,7 +3,7 @@
     <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="ResearchAnomalyBase" ParentName="ResearchBase" MayRequire="Ludeon.RimWorld.Anomaly">
         <categoryKey>ResearchThingAnomaly</categoryKey>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ResearchAnomalyBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ResearchAnomalyBase" MayRequire="Ludeon.RimWorld.Anomaly">
         <defName>ResearchAnomalyBaseNormal</defName>
         <difficulty>2</difficulty>
         <candidates>
@@ -18,7 +18,7 @@
             </li>
         </candidates>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ResearchAnomalyBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ResearchAnomalyBase" MayRequire="Ludeon.RimWorld.Anomaly">
         <defName>ResearchAnomalyBaseHard</defName>
         <difficulty>3</difficulty>
         <candidates>
@@ -33,7 +33,7 @@
             </li>
         </candidates>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ResearchAnomalyBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ResearchAnomalyBase" MayRequire="Ludeon.RimWorld.Anomaly">
         <defName>ResearchAnomalyBaseExpert</defName>
         <difficulty>4</difficulty>
         <candidates>

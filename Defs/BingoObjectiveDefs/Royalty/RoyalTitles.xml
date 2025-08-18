@@ -6,7 +6,7 @@
         <categoryKey>RoyalTitle</categoryKey>
         <eventHandlerClass>RimWorldBingoMod.Objectives.Royalty.PawnRoyalTitleBingoObjective</eventHandlerClass>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="GetRoyalTitleBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="GetRoyalTitleBase" MayRequire="Ludeon.RimWorld.Royalty">
         <defName>GetRoyalTitleNormal</defName>
         <difficulty>2</difficulty>
         <candidates>
@@ -15,7 +15,7 @@
             </li>
         </candidates>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="GetRoyalTitleBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="GetRoyalTitleBase" MayRequire="Ludeon.RimWorld.Royalty">
         <defName>GetRoyalTitleHard</defName>
         <difficulty>3</difficulty>
         <candidates>
@@ -24,7 +24,7 @@
             </li>
         </candidates>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="GetRoyalTitleBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="GetRoyalTitleBase" MayRequire="Ludeon.RimWorld.Royalty">
         <defName>GetRoyalTitleExpert</defName>
         <difficulty>4</difficulty>
         <candidates>
@@ -33,7 +33,7 @@
             </li>
         </candidates>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="GetRoyalTitleBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="GetRoyalTitleBase" MayRequire="Ludeon.RimWorld.Royalty">
         <defName>GetRoyalTitleLis</defName>
         <difficulty>5</difficulty>
         <candidates>
