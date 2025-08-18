@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="SpendBioferriteBase">
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="SpendBioferriteBase" MayRequire="Ludeon.RimWorld.Anomaly">
         <label>spend X bioferrite on psychic rituals</label>
         <title>SpendBioferriteBase.title</title>
         <details>SpendBioferriteBase.details</details>
