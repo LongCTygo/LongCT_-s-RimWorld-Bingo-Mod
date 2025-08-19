@@ -124,7 +124,7 @@
                 <value>Apparel_ArmorHelmetRecon</value>
                 <multiplier>0.01</multiplier>
             </li>
-            <li>
+            <li MayRequire="Ludeon.RimWorld.Royalty">
                 <value>Apparel_ArmorHelmetReconPrestige</value>
                 <multiplier>0.01</multiplier>
             </li>
@@ -145,7 +145,7 @@
                 <value>Apparel_ArmorRecon</value>
                 <multiplier>0.01</multiplier>
             </li>
-            <li>
+            <li MayRequire="Ludeon.RimWorld.Royalty">
                 <value>Apparel_ArmorReconPrestige</value>
                 <multiplier>0.01</multiplier>
             </li>

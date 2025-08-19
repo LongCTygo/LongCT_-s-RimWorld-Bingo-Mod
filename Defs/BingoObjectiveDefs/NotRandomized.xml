@@ -7,4 +7,12 @@
         <eventHandlerClass>RimWorldBingoMod.Objectives.ImpossibleBingoObjective</eventHandlerClass>
         <randomlySelectable>false</randomlySelectable>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef>
+        <defName>FreeSpaceObjective</defName>
+        <label>free space</label>
+        <title>FreeSpace.title</title>
+        <details>FreeSpace.details</details>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.FreeSpaceBingoObjective</eventHandlerClass>
+        <randomlySelectable>false</randomlySelectable>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
 </Defs>

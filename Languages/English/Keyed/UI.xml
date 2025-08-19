@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    <Bingo.UI.BingoSettings>Bingo settings</Bingo.UI.BingoSettings>
+    <Bingo.UI.BingoMode>Bingo mode</Bingo.UI.BingoMode>
+    <Bingo.UI.ModeDisabled>Disabled</Bingo.UI.ModeDisabled>
+    <Bingo.UI.ModeRandom>Random</Bingo.UI.ModeRandom>
+    <Bingo.UI.ModeCustom>Custom</Bingo.UI.ModeCustom>
+    <Bingo.UI.ModeDisabled.description>No bingo board will be generated at the start of the game. Features of the bingo mod will become inaccessible.</Bingo.UI.ModeDisabled.description>
+    <Bingo.UI.ModeRandom.description>A random bingo board is generated upon starting.</Bingo.UI.ModeRandom.description>
+    <Bingo.UI.ModeCustom.description>Customize your bingo board that you will start with.</Bingo.UI.ModeCustom.description>
+    <Bingo.UI.CenterMode>Center square mode</Bingo.UI.CenterMode>
+    <Bingo.UI.CenterModeFreeSpace>Free space</Bingo.UI.CenterModeFreeSpace>
+    <Bingo.UI.CenterModeHarder>Harder than other squares</Bingo.UI.CenterModeHarder>
+    <Bingo.UI.CenterModeSame>Same as other squares</Bingo.UI.CenterModeSame>
+    <Bingo.UI.CenterModeEasier>Easier than other squares</Bingo.UI.CenterModeEasier>
+    <Bingo.UI.CustomizeBoard>Customize board</Bingo.UI.CustomizeBoard>
+    <Bingo.UI.Generate>Generate ({0})</Bingo.UI.Generate>
+    <Bingo.UI.GenerateBoard>Generate board</Bingo.UI.GenerateBoard>
+    <Bingo.UI.Difficulty>Difficulty</Bingo.UI.Difficulty>
+    <Bingo.UI.Difficulty.Easy>Easy</Bingo.UI.Difficulty.Easy>
+    <Bingo.UI.Difficulty.Medium>Medium</Bingo.UI.Difficulty.Medium>
+    <Bingo.UI.Difficulty.Hard>Hard</Bingo.UI.Difficulty.Hard>
+</LanguageData>

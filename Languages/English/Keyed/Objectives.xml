@@ -5,8 +5,12 @@
     <BingoObjective.Animal.Wool>Wool</BingoObjective.Animal.Wool>
     <BingoObjective.Animal.Chemfuel>Chemfuel</BingoObjective.Animal.Chemfuel>
     <!-- ObjectivesInfo -->
+    <!-- Non-Randomized -->
     <NullObjective.title>Impossible</NullObjective.title>
     <NullObjective.details>This objective cannot be completed.</NullObjective.details>
+    <FreeSpace.title>FREE SPACE</FreeSpace.title>
+    <FreeSpace.details>This space is automatically given to you at the start.</FreeSpace.details>
+    <!-- Normal Objectives -->
     <TraitRecruitBase.title>Recruit a {0} pawn</TraitRecruitBase.title>
     <TraitRecruitBase.details>Recruit someone to your colony who has the trait '{0}'.</TraitRecruitBase.details>
     <ColonistCountBase.title>Have {0} colonists</ColonistCountBase.title>
