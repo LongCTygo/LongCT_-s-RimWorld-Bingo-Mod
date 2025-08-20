@@ -12,4 +12,17 @@
             </li>
         </stages>
     </ThoughtDef>
+    <ThoughtDef>
+        <defName>BingoBlackoutMoodBoost</defName>
+        <durationDays>15</durationDays>
+        <stackLimit>1</stackLimit>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <stages>
+            <li>
+                <label>blackout!</label>
+                <description>The entire bingo board has been filled out, it's unbelievable!</description>
+                <baseMoodEffect>30</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
 </Defs>

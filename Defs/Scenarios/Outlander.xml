@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ScenarioDef Name="BingoRescueMission" ParentName="ScenarioBase">
+        <defName>Bingo_RescueMission</defName>
+        <label>[Bingo] Rescue Mission</label>
+        <description>You were tasked to come to this rimworld to rescue everyone from an incoming planetkiller. But a malfunctioned engine caused your ship to be torn apart, and now you've become the rescuees. Now you have to think of a way to escape by yourself. Or perhaps, crazy as it's sound - this odd bingo device may be the way to stop the planetkiller dead on its track.\n\nNote: This scenario contains a planetkiller event, which will end the game immediately after a period of time. If you don't plan to escape, the only way to stop it is to complete every task on the bingo board.</description>
+        <scenario>
+            <name>[Bingo] Rescue Mission</name>
+            <summary>Three rescue operators crashlanded on a planet they were supposed to evacuate everyone from</summary>
+            <parts>
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+                    <def>ConfigPage_ConfigureStartingPawns</def>
+                    <pawnChoiceCount>8</pawnChoiceCount>
+                    <pawnCount>3</pawnCount>
+                </li>
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>DropPods</method>
+                </li>
+                <li Class="ScenPart_ForcedHediff">
+                    <def>ForcedHediff</def>
+                    <chance>0.5</chance>
+                    <context>PlayerStarter</context>
+                    <hideOffMap>True</hideOffMap>
+                    <hediff>CryptosleepSickness</hediff>
+                    <severityRange>1~1</severityRange>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Silver</thingDef>
+                    <count>1500</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <count>60</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <count>50</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>ComponentIndustrial</thingDef>
+                    <count>15</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Apparel_FlakPants</thingDef>
+                    <count>3</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Apparel_FlakVest</thingDef>
+                    <count>3</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Apparel_AdvancedHelmet</thingDef>
+                    <stuff>Steel</stuff>
+                    <count>3</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Apparel_FlakJacket</thingDef>
+                    <count>3</count>
+                </li>
+                <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                    <def>ScatterThingsNearPlayerStart</def>
+                    <thingDef>Steel</thingDef>
+                    <count>450</count>
+                    <allowRoofed>True</allowRoofed>
+                </li>
+                <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                    <def>ScatterThingsNearPlayerStart</def>
+                    <thingDef>WoodLog</thingDef>
+                    <count>300</count>
+                    <allowRoofed>True</allowRoofed>
+                </li>
+                <li Class="ScenPart_ScatterThingsAnywhere">
+                    <def>ScatterThingsAnywhere</def>
+                    <thingDef>ShipChunk</thingDef>
+                    <count>3</count>
+                </li>
+                <li Class="ScenPart_ScatterThingsAnywhere">
+                    <def>ScatterThingsAnywhere</def>
+                    <thingDef>Steel</thingDef>
+                    <count>720</count>
+                    <allowRoofed>True</allowRoofed>
+                </li>
+                <li Class="ScenPart_GameStartDialog">
+                    <def>GameStartDialog</def>
+                    <text>You've crashlanded on the planet you were meant to rescue everyone from. Now that task is no longer important, you need to find a way to rescueyourself first.\n\nAs you were still trying to comprehend what have justhappened, a board-device attracted your attention. You wonder if doing whatit told you to do can save you from this mess.</text>
+                    <textKey>GameStartDialog</textKey>
+                    <closeSound>GameStartSting</closeSound>
+                </li>
+                <li Class="ScenPart_GameCondition">
+                    <def>GameCondition_Planetkiller</def>
+                    <durationDays>500</durationDays>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Gun_BoltActionRifle</thingDef>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Gun_ChainShotgun</thingDef>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Gun_HeavySMG</thingDef>
+                </li>
+            </parts>
+        </scenario>
+    </ScenarioDef>
+</Defs>

@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    <LetterDef ParentName="CustomChoiceLetterBase">
+  <LetterDef ParentName="CustomChoiceLetterBase">
     <defName>BingoRewards</defName>
     <letterClass>RimWorldBingoMod.Bingo.ChoiceLetter_BingoRewards</letterClass>
+  </LetterDef>
+  <LetterDef ParentName="CustomChoiceLetterBase">
+    <defName>BingoFinalRewards</defName>
+    <letterClass>RimWorldBingoMod.Bingo.ChoiceLetter_BingoFinalRewards</letterClass>
   </LetterDef>
 </Defs>

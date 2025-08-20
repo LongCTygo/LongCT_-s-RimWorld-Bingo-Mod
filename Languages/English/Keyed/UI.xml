@@ -20,4 +20,7 @@
     <Bingo.UI.Difficulty.Easy>Easy</Bingo.UI.Difficulty.Easy>
     <Bingo.UI.Difficulty.Medium>Medium</Bingo.UI.Difficulty.Medium>
     <Bingo.UI.Difficulty.Hard>Hard</Bingo.UI.Difficulty.Hard>
+    <Bingo.UI.CustomBoard.Load>Load custom board</Bingo.UI.CustomBoard.Load>
+    <Bingo.UI.CustomBoard.Save>Save custom board</Bingo.UI.CustomBoard.Save>
+    <Bingo.UI.CustomBoard.Open>Open custom boards folder</Bingo.UI.CustomBoard.Open>
 </LanguageData>
