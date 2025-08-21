@@ -114,4 +114,71 @@
             </parts>
         </scenario>
     </ScenarioDef>
+
+    <ScenarioDef Name="BingoBanishedProphet" ParentName="ScenarioBase">
+    <defName>Bingo_BanishedProphet</defName>
+    <label>[Bingo] Banished Prophet</label>
+    <description>"I'm not insane!" - your last-ditched attempt to convince your people was unsucessful. No one believed what you said, neither the incoming doomsday strike that will tear up the planet, nor the fact that solving this ancient bingo device will save everyone from it. Now it's up to you to find a way around the bingo board. And time is ticking.\n\nNote: This scenario contains a planetkiller event, which will end the game immediately after a period of time. If you don't plan to escape, the only way to stop it is to complete every task on the bingo board. With only one starting person and a lack of research, this is a very difficult scenario.</description>
+    <scenario>
+      <summary>One tribesperson banished from their tribe for shouting heretic. Includes planetkiller.</summary>
+      <playerFaction>
+        <factionDef>PlayerTribe</factionDef>
+      </playerFaction>
+      <parts>
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+				<def>ConfigPage_ConfigureStartingPawns</def>
+				<pawnChoiceCount>8</pawnChoiceCount>
+				<pawnCount>1</pawnCount>
+			</li>
+			<li Class="ScenPart_PlayerPawnsArriveMethod">
+				<def>PlayerPawnsArriveMethod</def>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Silver</thingDef>
+				<count>50</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Pemmican</thingDef>
+				<count>80</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MedicineHerbal</thingDef>
+				<count>5</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MeleeWeapon_Spear</thingDef>
+				<stuff>Steel</stuff>
+			</li>
+			<li Class="ScenPart_StartingAnimal">
+				<def>StartingAnimal</def>
+				<animalKind>Donkey</animalKind>
+				<count>1</count>
+			</li>
+			<li Class="ScenPart_ScatterThingsNearPlayerStart">
+				<def>ScatterThingsNearPlayerStart</def>
+				<thingDef>WoodLog</thingDef>
+				<count>250</count>
+				<allowRoofed>True</allowRoofed>
+			</li>
+			<li Class="ScenPart_ForcedTrait">
+				<def>ForcedTrait</def>
+				<chance>1</chance>
+				<context>PlayerStarter</context>
+				<trait>TooSmart</trait>
+			</li>
+			<li Class="ScenPart_GameCondition">
+				<def>GameCondition_Planetkiller</def>
+				<durationDays>500</durationDays>
+			</li>
+			<li Class="ScenPart_GameStartDialog">
+				<def>GameStartDialog</def>
+				<text>You were banished by your tribe for screaming heretic. But you know yourself that all you said is true. The end of the world is near, and the only way to stop it is to please the bingo board.\n\nFirst, however, you need to ensure your safety for the day.</text>
+			</li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
 </Defs>

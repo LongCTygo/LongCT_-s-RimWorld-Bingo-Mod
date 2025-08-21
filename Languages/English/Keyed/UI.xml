@@ -23,4 +23,7 @@
     <Bingo.UI.CustomBoard.Load>Load custom board</Bingo.UI.CustomBoard.Load>
     <Bingo.UI.CustomBoard.Save>Save custom board</Bingo.UI.CustomBoard.Save>
     <Bingo.UI.CustomBoard.Open>Open custom boards folder</Bingo.UI.CustomBoard.Open>
+    <Bingo.UI.Prestige>Prestige</Bingo.UI.Prestige>
+    <Bingo.UI.PrestigeConfirmationMessage>Prestige will reset your board and generate a brand new one. The new board will be generated with the hardest settings. Completing each milestones again will grant you rewards like normal.\n\nConfirm Prestige?</Bingo.UI.PrestigeConfirmationMessage>
+    <Bingo.UI.PrestigeDone>Prestige</Bingo.UI.PrestigeDone>
 </LanguageData>
