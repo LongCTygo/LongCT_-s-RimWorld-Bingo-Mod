@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AFC50A2E-B67F-479A-A7AE-B46F7D8DDD0E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RimWorldBingoMod</RootNamespace>
+    <AssemblyName>RimWorldBingoMod</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>E:\SteamLibrary\steamapps\common\RimWorld\Mods\LongCT_%27s RimWorld Bingo Mod\1.6\Assemblies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bingo\BingoBoardComponent.cs" />
+    <Compile Include="Bingo\BingoEnums.cs" />
+    <Compile Include="Bingo\BingoInitData.cs" />
+    <Compile Include="Bingo\BingoStatisticsInfo.cs" />
+    <Compile Include="Bingo\BingoWorldComponent.cs" />
+    <Compile Include="Bingo\ChoiceLetter_BingoFinalRewards.cs" />
+    <Compile Include="Bingo\ChoiceLetter_BingoRewards.cs" />
+    <Compile Include="Bingo\CustomBingoBoard.cs" />
+    <Compile Include="Broadcasters\AnimalProductProducedBroadcaster.cs" />
+    <Compile Include="Broadcasters\Anomaly\PsychicRitualCompletedBroadcaster.cs" />
+    <Compile Include="Broadcasters\Biotech\WastepackDumpedBroadcaster.cs" />
+    <Compile Include="Broadcasters\Biotech\XenogermImplantedBroadcaster.cs" />
+    <Compile Include="Broadcasters\CaravanArrivedAtShipBroadcaster.cs" />
+    <Compile Include="Broadcasters\CaravanArrivedAtTileBroadcaster.cs" />
+    <Compile Include="Broadcasters\ColonistRecruitedBroadcaster.cs" />
+    <Compile Include="Broadcasters\FactionSettlementDestroyedBroadcaster.cs" />
+    <Compile Include="Broadcasters\FermentingBarrelTakenOutBroadcaster.cs" />
+    <Compile Include="Broadcasters\GreatestPopulationBroadcaster.cs" />
+    <Compile Include="Broadcasters\InspirationGainedBroadcaster.cs" />
+    <Compile Include="Broadcasters\MapGeneratedBroadcaster.cs" />
+    <Compile Include="Broadcasters\MemoryGainedBroadcaster.cs" />
+    <Compile Include="Broadcasters\MentalBreakOccuredBroadcaster.cs" />
+    <Compile Include="Broadcasters\MineableMinedBroadcaster.cs" />
+    <Compile Include="Broadcasters\Odyssey\FishFishedBroadcaster.cs" />
+    <Compile Include="Broadcasters\PawnKilledBroadcaster.cs" />
+    <Compile Include="Broadcasters\PawnSkillLevelUpBroadcaster.cs" />
+    <Compile Include="Broadcasters\PlantHarvestedBroadcaster.cs" />
+    <Compile Include="Broadcasters\QuestCompletionBroadcaster.cs" />
+    <Compile Include="Broadcasters\ResearchCompletionBroadcaster.cs" />
+    <Compile Include="Broadcasters\Royalty\RoyalTitleGainedBroadcaster.cs" />
+    <Compile Include="Broadcasters\Royalty\TechprintAppliedBroadcaster.cs" />
+    <Compile Include="Broadcasters\SurgeryDealDamageBroadcaster.cs" />
+    <Compile Include="Broadcasters\ThingProducedBroadcaster.cs" />
+    <Compile Include="Broadcasters\TradeDealMadeBroadcaster.cs" />
+    <Compile Include="Extensions\TimeDisplayExtension.cs" />
+    <Compile Include="Files\GameDataSaveLoader_Bingo.cs" />
+    <Compile Include="Files\GenFilePaths_Bingo.cs" />
+    <Compile Include="Objectives\Anomaly\SpendBioferriteProgressionBingoObjective.cs" />
+    <Compile Include="Objectives\Biomes\VisitBiomesProgressionBingoObjective.cs" />
+    <Compile Include="Objectives\Biotech\DumpWastepackProgressionBingoObjective.cs" />
+    <Compile Include="Objectives\Biotech\ImplantXenogermOfComplexityProgressionBingoObjective.cs" />
+    <Compile Include="Objectives\Doctoring\SurgeryDealDamageProgressionBingoObjective.cs" />
+    <Compile Include="Objectives\Extension\QuestIgnoreModExtension.cs" />
+    <Compile Include="Objectives\FreeSpaceBingoObjective.cs" />
+    <Compile Include="Objectives\ImpossibleBingoObjective.cs" />
+    <Compile Include="Objectives\Killing\HumanoidKilledProgressionBingoObjective.cs" />
+    <Compile Include="Objectives\Mining\MiningProgressionBingoObjective.cs" />
+    <Compile Include="Objectives\Mood\InspirationProgressionBingoObjective.cs" />
+    <Compile Include="Objectives\Mood\MentalBreakProgressionBingoObjective.cs" />
+    <Compile Include="Objectives\Odyssey\FishingProgressionBingoObjective.cs" />
+    <Compile Include="Objectives\Production\AnimalProductProgressionBingoObjective.cs" />
+    <Compile Include="Objectives\BingoCategoryDef.cs" />
+    <Compile Include="Objectives\BingoObjective.cs" />
+    <Compile Include="Objectives\BingoObjectiveDef.cs" />
+    <Compile Include="Objectives\Colonist\ColonistCountProgressionBingoObjective.cs" />
+    <Compile Include="Objectives\Colonist\TraitColonistGainedBingoObjective.cs" />
+    <Compile Include="Objectives\Extension\BingoObjectiveExtension.cs" />
+    <Compile Include="Objectives\ITickObjective.cs" />
+    <Compile Include="Objectives\ObjectiveCandidate.cs" />
+    <Compile Include="Objectives\PlantHarvest\PlantYieldProgressionBingoObjective.cs" />
+    <Compile Include="Objectives\Production\ProduceThingProgressionBingoObjective.cs" />
+    <Compile Include="Objectives\ProgressionBingoObjective.cs" />
+    <Compile Include="Objectives\Quest\QuestProgressionBingoObjective.cs" />
+    <Compile Include="Objectives\Quest\QuestShipBingoObjective.cs" />
+    <Compile Include="Objectives\Raiding\RaidingFactionBingoObjective.cs" />
+    <Compile Include="Objectives\Research\ResearchProgressionBingoObjective.cs" />
+    <Compile Include="Objectives\Research\ResearchProjectBingoObjective.cs" />
+    <Compile Include="Objectives\Royalty\PawnRoyalTitleBingoObjective.cs" />
+    <Compile Include="Objectives\Royalty\TechprintAppliedProgressionBingoObjective.cs" />
+    <Compile Include="Objectives\Skill\SkillLevelProgressionBingoObjective.cs" />
+    <Compile Include="Objectives\Thoughts\LovinProgressionBingoObjective.cs" />
+    <Compile Include="Objectives\Trading\SellThingsProgressionBingoObjective.cs" />
+    <Compile Include="Patches\Anomaly\PsychicRitualToilInvokeHorax_ConsumeRequiredOffering_Patch.cs" />
+    <Compile Include="Patches\Biotech\CompDissolutionEffectGoodwill_DoDissolutionEffectWorld_Patch.cs" />
+    <Compile Include="Patches\Biotech\GeneUtility_ImplantXenogermItem_Patch.cs" />
+    <Compile Include="Patches\BuildingFermentingBarrel_TakeOutBeer_Patch.cs" />
+    <Compile Include="Patches\CaravanPathFollower_TryEnterNextPathTile_Patch.cs" />
+    <Compile Include="Patches\CompEggLayer_ProduceEgg_Patch.cs" />
+    <Compile Include="Patches\CompHasGatherableBodyResource_Gathered_Patch.cs" />
+    <Compile Include="Patches\InspirationHander_TryStartInspiration_Patch.cs" />
+    <Compile Include="Patches\MapGenerator_GenerateMap_Patch.cs" />
+    <Compile Include="Patches\MemoryThoughHandler_TryGainMemory_Patch.cs" />
+    <Compile Include="Patches\MentalBreakWorker_TryStart_Patch.cs" />
+    <Compile Include="Patches\Odyssey\WaterBodyTracker_NotifyFished_Patch.cs" />
+    <Compile Include="Patches\Pawn_Kill_Patch.cs" />
+    <Compile Include="Patches\Royalty\PawnRoyaltyTracker_SetTitle_Patch.cs" />
+    <Compile Include="Patches\Royalty\ResearchManager_ApplyTechprint_Patch.cs" />
+    <Compile Include="Patches\SettlementDefeatUtility_IsDefeated_Patch.cs" />
+    <Compile Include="Patches\SkillRecord_Patch.cs" />
+    <Compile Include="Patches\SurgeryOutcome_ApplyDamage_Patch.cs" />
+    <Compile Include="Patches\TradeDeal_TryExecute_Patch.cs" />
+    <Compile Include="Patches\UI\PageCreateWorldParams_DoWindowContents_Patch.cs" />
+    <Compile Include="Patches\VisitEscapeShip_Arrived_Patch.cs" />
+    <Compile Include="Patches\CompDeepDrill_TryProducePortion_Patch.cs" />
+    <Compile Include="Patches\GenRecipe_PostProcessProduct_Patch.cs" />
+    <Compile Include="Patches\Mineable_TrySpawnYield_Patch.cs" />
+    <Compile Include="Patches\QuestManager_NotifyPlantHarvested_Patch.cs" />
+    <Compile Include="Patches\Quest_End_Patch.cs" />
+    <Compile Include="Patches\ResearchManager_FinishProject_Patch.cs" />
+    <Compile Include="Patches\StatsRecord_UpdateGreatestPopulation_Patch.cs" />
+    <Compile Include="Patches\StoryWatcher_PopAdaption_NotifyPawnEvent_Patch.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rewards\BingoRewards.cs" />
+    <Compile Include="Rewards\BingoRewardsDef.cs" />
+    <Compile Include="RimWorldBingoMod.cs" />
+    <Compile Include="UI\Dialog_BingoBoardCustomize.cs" />
+    <Compile Include="UI\Dialog_BingoBoardList.cs" />
+    <Compile Include="UI\Dialog_BingoBoardList_Load.cs" />
+    <Compile Include="UI\Dialog_BingoBoardList_Save.cs" />
+    <Compile Include="UI\Dialog_BingoConfig.cs" />
+    <Compile Include="UI\MainButtonWorker_ToggleBingoTab.cs" />
+    <Compile Include="UI\MainTabWindow_Bingo.cs" />
+    <Compile Include="Utils\BingoGeneratorUtils.cs" />
+    <Compile Include="Utils\BingoRewardsUtils.cs" />
+    <Compile Include="Utils\BingoUIUtils.cs" />
+    <Compile Include="Utils\RandomUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Krafs.Rimworld.Ref">
+      <Version>1.6.4543</Version>
+    </PackageReference>
+    <PackageReference Include="Lib.Harmony" PrivateAssets="all" ExcludeAssets="runtime">
+      <Version>2.4.0</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
