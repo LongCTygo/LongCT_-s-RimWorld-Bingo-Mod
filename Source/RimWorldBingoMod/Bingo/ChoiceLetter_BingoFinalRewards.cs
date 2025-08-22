@@ -53,6 +53,14 @@ namespace RimWorldBingoMod.Bingo
 			{
 				Find.LetterStack.ReceiveLetter("Bingo.PlanetkillerStopped.label".Translate(),
 					"Bingo.PlanetkillerStopped.text".Translate(), LetterDefOf.PositiveEvent);
+				var history = DefDatabase<HistoryEventDef>.GetNamedSilentFail("PlanetkillerStopped");
+				foreach (Faction faction in Find.FactionManager.AllFactionsVisible)
+				{
+					if (faction != Faction.OfPlayer && faction.def.humanlikeFaction && !faction.def.permanentEnemy)
+					{
+						faction.TryAffectGoodwillWith(Faction.OfPlayer, 50, canSendMessage: true, canSendHostilityLetter: true, history);
+					}
+				}
 			}
 		}
 
