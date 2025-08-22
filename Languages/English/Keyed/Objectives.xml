@@ -14,7 +14,7 @@
     <TraitRecruitBase.title>Recruit a {0} pawn</TraitRecruitBase.title>
     <TraitRecruitBase.details>Recruit someone to your colony who has the trait '{0}'.</TraitRecruitBase.details>
     <ColonistCountBase.title>Have {0} colonists</ColonistCountBase.title>
-    <ColonistCountBase.details>At any point, reach a colonist count of {0}. Quests lodgers (desperate refugees, ect...) do not count.</ColonistCountBase.details>
+    <ColonistCountBase.details>At any point, reach a colonist count of {0}. Quests lodgers (desperate refugees, ect.) do not count.</ColonistCountBase.details>
     <HarvestAnimal.title>Harvest {0} {1} from ranching.</HarvestAnimal.title>
     <HarvestAnimal.details>Harvest a total of {0} {1} from ranching animals.</HarvestAnimal.details>
     <MiningBase.title>Mine {0} {1}</MiningBase.title>
@@ -30,7 +30,7 @@
     <ShipToTheStarArrival.title>Reach the location of the starship</ShipToTheStarArrival.title>
     <ShipToTheStarArrival.details>Send a colonist to Charlon Whitestone's ship located on the world map.</ShipToTheStarArrival.details>
     <RaidFactionBase.title>Destroy a {0} faction's settlement</RaidFactionBase.title>
-    <RaidFactionBase.details>Raid and destroy a settlement of a faction with a tech level of {0}. For references: Neolithic = Tribal, Industrial = Outlanders, Spacer = Pirates, Ultra = Empire.</RaidFactionBase.details>
+    <RaidFactionBase.details>Raid and destroy a settlement of a faction with a tech level of {0}. For reference: Neolithic = Tribal, Industrial = Outlanders, Spacer = Pirates, Ultra = Empire.</RaidFactionBase.details>
     <ResearchBase.title>Research {0}</ResearchBase.title>
     <ResearchBase.details>Complete the research {0}.</ResearchBase.details>
     <ResearchProgressionBase.title>Research {0} projects</ResearchProgressionBase.title>
@@ -39,7 +39,7 @@
     <SkillLevelBase.details>Have a colonist with a {0} skill of {1}.</SkillLevelBase.details>
     <VisitBiomesBase.title>Visit {0} different biomes</VisitBiomesBase.title>
     <VisitBiomesBase.details>Travel through {0} different biomes.</VisitBiomesBase.details>
-    <MentalBreakBase.title>Experience {0} {1}mental breaks.</MentalBreakBase.title>
+    <MentalBreakBase.title>Experience {0} {1} mental breaks.</MentalBreakBase.title>
     <MentalBreakBase.details>Have your colonists - intentionally or not - experience {0} {1}mental breaks. They can be the same mental break type, but they must be their own instance of mental break.</MentalBreakBase.details>
     <GainInspirationBase.title>Have {0} inspirations</GainInspirationBase.title>
     <GainInspirationBase.details>Have people in your colony experience {0} different instances of inspiration.</GainInspirationBase.details>
@@ -66,5 +66,5 @@
     <DumpWastepackBase.details>Dump {0} wastepacks on any tile on the world map. You may caravan, use drop pods, or abandon tiles containing wastepacks.</DumpWastepackBase.details>
     <!-- Odyssey -->
     <FishingBase.title>Fish {0} fish</FishingBase.title>
-    <FishingBase.details>Fish {0} fish. Animals fishing does count (even wild one!).</FishingBase.details>
+    <FishingBase.details>Fish {0} fish. Animals fishing does count (even wild ones!).</FishingBase.details>
 </LanguageData>

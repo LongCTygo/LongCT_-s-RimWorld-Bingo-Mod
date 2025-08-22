@@ -5,9 +5,9 @@
     <Bingo.UI.ModeDisabled>Disabled</Bingo.UI.ModeDisabled>
     <Bingo.UI.ModeRandom>Random</Bingo.UI.ModeRandom>
     <Bingo.UI.ModeCustom>Custom</Bingo.UI.ModeCustom>
-    <Bingo.UI.ModeDisabled.description>No bingo board will be generated at the start of the game. Features of the bingo mod will become inaccessible.</Bingo.UI.ModeDisabled.description>
-    <Bingo.UI.ModeRandom.description>A random bingo board is generated upon starting.</Bingo.UI.ModeRandom.description>
-    <Bingo.UI.ModeCustom.description>Customize your bingo board that you will start with.</Bingo.UI.ModeCustom.description>
+    <Bingo.UI.ModeDisabled.description>No bingo board will be generated at the start of the game. Features of the bingo mod will be inaccessible.</Bingo.UI.ModeDisabled.description>
+    <Bingo.UI.ModeRandom.description>A random bingo board is generated upon starting the game.</Bingo.UI.ModeRandom.description>
+    <Bingo.UI.ModeCustom.description>Customize the bingo board you will start with.</Bingo.UI.ModeCustom.description>
     <Bingo.UI.CenterMode>Center square mode</Bingo.UI.CenterMode>
     <Bingo.UI.CenterModeFreeSpace>Free space</Bingo.UI.CenterModeFreeSpace>
     <Bingo.UI.CenterModeHarder>Harder than other squares</Bingo.UI.CenterModeHarder>
@@ -24,6 +24,6 @@
     <Bingo.UI.CustomBoard.Save>Save custom board</Bingo.UI.CustomBoard.Save>
     <Bingo.UI.CustomBoard.Open>Open custom boards folder</Bingo.UI.CustomBoard.Open>
     <Bingo.UI.Prestige>Prestige</Bingo.UI.Prestige>
-    <Bingo.UI.PrestigeConfirmationMessage>Prestige will reset your board and generate a brand new one. The new board will be generated with the hardest settings. Completing each milestones again will grant you rewards like normal.\n\nConfirm Prestige?</Bingo.UI.PrestigeConfirmationMessage>
+    <Bingo.UI.PrestigeConfirmationMessage>Prestige will reset your board and generate a brand new one. The new board will be generated with the hardest settings. Completing each milestone again will grant you rewards like normal.\n\nConfirm Prestige?</Bingo.UI.PrestigeConfirmationMessage>
     <Bingo.UI.PrestigeDone>Prestige</Bingo.UI.PrestigeDone>
 </LanguageData>
