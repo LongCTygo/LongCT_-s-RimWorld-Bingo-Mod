@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="LovinBase">
+        <label>got x lovins</label>
+        <title>LovinBase.title</title>
+        <details>LovinBase.details</details>
+        <categoryKey>Thoughts</categoryKey>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Thoughts.LovinProgressionBingoObjective</eventHandlerClass>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="LovinBase">
+        <defName>LovinEasy</defName>
+        <difficulty>1</difficulty>
+        <goalRange>10~20</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="LovinBase">
+        <defName>LovinNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>20~40</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="LovinBase">
+        <defName>LovinHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>40~70</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="LovinBase">
+        <defName>LovinExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>70~110</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="LovinBase">
+        <defName>LovinLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>110~160</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

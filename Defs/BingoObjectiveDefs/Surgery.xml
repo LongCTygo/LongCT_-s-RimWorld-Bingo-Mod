@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef Abstract="True" Name="SurgeryDamageBase">
+        <label>deal X damage through surgery</label>
+        <title>SurgeryDamageBase.title</title>
+        <details>SurgeryDamageBase.details</details>
+        <categoryKey>SurgeryDamage</categoryKey>
+        <eventHandlerClass>RimWorldBingoMod.Objectives.Doctoring.SurgeryDealDamageProgressionBingoObjective</eventHandlerClass>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SurgeryDamageBase">
+        <defName>SurgeryDamageNormal</defName>
+        <difficulty>2</difficulty>
+        <goalRange>65~130</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SurgeryDamageBase">
+        <defName>SurgeryDamageHard</defName>
+        <difficulty>3</difficulty>
+        <goalRange>130~195</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SurgeryDamageBase">
+        <defName>SurgeryDamageExpert</defName>
+        <difficulty>4</difficulty>
+        <goalRange>195~260</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+    <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SurgeryDamageBase">
+        <defName>SurgeryDamageLis</defName>
+        <difficulty>5</difficulty>
+        <goalRange>260~400</goalRange>
+    </RimWorldBingoMod.Objectives.BingoObjectiveDef>
+</Defs>

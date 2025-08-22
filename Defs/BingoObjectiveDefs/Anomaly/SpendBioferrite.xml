@@ -10,26 +10,26 @@
     <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SpendBioferriteBase" MayRequire="Ludeon.RimWorld.Anomaly">
         <defName>SpendBioferriteBaseEasy</defName>
         <difficulty>1</difficulty>
-        <goalRange>60~90</goalRange>
+        <goalRange>30~60</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
     <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SpendBioferriteBase" MayRequire="Ludeon.RimWorld.Anomaly">
         <defName>SpendBioferriteBaseNormal</defName>
         <difficulty>2</difficulty>
-        <goalRange>90~150</goalRange>
+        <goalRange>60~120</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
     <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SpendBioferriteBase" MayRequire="Ludeon.RimWorld.Anomaly">
         <defName>SpendBioferriteBaseHard</defName>
         <difficulty>3</difficulty>
-        <goalRange>150~360</goalRange>
+        <goalRange>120~210</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
     <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SpendBioferriteBase" MayRequire="Ludeon.RimWorld.Anomaly">
         <defName>SpendBioferriteBaseExpert</defName>
         <difficulty>4</difficulty>
-        <goalRange>360~720</goalRange>
+        <goalRange>210~360</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
     <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="SpendBioferriteBase" MayRequire="Ludeon.RimWorld.Anomaly">
         <defName>SpendBioferriteBaseLis</defName>
         <difficulty>5</difficulty>
-        <goalRange>720~1200</goalRange>
+        <goalRange>360~720</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
 </Defs>

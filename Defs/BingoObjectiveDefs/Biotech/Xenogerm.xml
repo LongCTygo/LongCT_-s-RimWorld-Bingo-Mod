@@ -25,11 +25,11 @@
     <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ImplantXenogermComplexityBase" MayRequire="Ludeon.RimWorld.Biotech">
         <defName>ImplantXenogermComplexityBaseExpert</defName>
         <difficulty>4</difficulty>
-        <goalRange>18~30</goalRange>
+        <goalRange>18~28</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
     <RimWorldBingoMod.Objectives.BingoObjectiveDef ParentName="ImplantXenogermComplexityBase" MayRequire="Ludeon.RimWorld.Biotech">
         <defName>ImplantXenogermComplexityBaseLis</defName>
         <difficulty>5</difficulty>
-        <goalRange>30~40</goalRange>
+        <goalRange>28~40</goalRange>
     </RimWorldBingoMod.Objectives.BingoObjectiveDef>
 </Defs>

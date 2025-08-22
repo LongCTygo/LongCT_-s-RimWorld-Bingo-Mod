@@ -47,6 +47,10 @@
     <KillHumanoidBase.details>Have your colonists kill {0} humans.</KillHumanoidBase.details>
     <SellGoodsBase.title>Sell {0} silvers worth of goods</SellGoodsBase.title>
     <SellGoodsBase.details>Sell and receive {0} silvers worth of goods.</SellGoodsBase.details>
+    <SurgeryDamageBase.title>Deal {0} damage through surgery</SurgeryDamageBase.title>
+    <SurgeryDamageBase.details>Deal {0} damage in total through failing surgery operations.</SurgeryDamageBase.details>
+    <LovinBase.title>Got some lovin' ({0} to be exact)</LovinBase.title>
+    <LovinBase.details>Have your colonists perform a total of {0} lovin'(s). Two colonists doing lovin' together counts as one instance of lovin.</LovinBase.details>
     <!-- Royalty -->
     <GetRoyalTitleBase.title>Gain the {0} title</GetRoyalTitleBase.title>
     <GetRoyalTitleBase.details>Have someone in your colony receive the title of {0}.</GetRoyalTitleBase.details>

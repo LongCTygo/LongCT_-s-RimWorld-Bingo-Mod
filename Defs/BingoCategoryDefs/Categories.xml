@@ -96,4 +96,12 @@
         <defName>SellGoodsBase</defName>
         <limit>1</limit>
     </RimWorldBingoMod.Objectives.BingoCategoryDef>
+    <RimWorldBingoMod.Objectives.BingoCategoryDef>
+        <defName>SurgeryDamage</defName>
+        <limit>1</limit>
+    </RimWorldBingoMod.Objectives.BingoCategoryDef>
+    <RimWorldBingoMod.Objectives.BingoCategoryDef>
+        <defName>Thoughts</defName>
+        <limit>1</limit> <!-- Currently only has 1 (Lovin) -->
+    </RimWorldBingoMod.Objectives.BingoCategoryDef>
 </Defs>
