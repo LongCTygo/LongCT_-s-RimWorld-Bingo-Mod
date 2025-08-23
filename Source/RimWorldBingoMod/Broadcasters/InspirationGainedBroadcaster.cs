@@ -9,7 +9,7 @@ namespace RimWorldBingoMod.Broadcasters
 
 		public static void Notify(InspirationDef inspiration)
 		{
-			Gained.Invoke(inspiration);
+			Gained?.Invoke(inspiration);
 		}
 	}
 }
